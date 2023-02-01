@@ -1,5 +1,6 @@
 import Styled from 'styled-components'
 
+
 export const Nav = Styled.div`
 display: flex;
 position: sticky;

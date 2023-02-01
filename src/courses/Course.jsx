@@ -1,6 +1,6 @@
 import React from 'react'
 import {Icon,IconX,CourseDateText,CourseDateWrapper,CourseDatewrapper,Container,CourseBox,MainCourseTitleBox, MainCourseTitle, CoursesBox,EachCourseBox,CourseTitle,CourseCount,CourseHeader,EachCourseBoxBottom ,CourseDuration,DimBox, DimFone,DimTitle,DimBtn,DimBottom,CoursesDateWrapper,CoursesDateBox1, CoursesDateBox2, CourseDateBox, CourseDateName, CourseDateTitle} from './course.js'
-
+import Order from './Order.jsx'
 function Course (){
     return (
        <CourseBox>
@@ -17,7 +17,7 @@ function Course (){
                     <CourseCount>3.000.000 сум</CourseCount>
                         <EachCourseBoxBottom>
                            <CourseDuration>6 месяцев</CourseDuration>
-                           <IconX><i class="uil uil-arrow-right"></i></IconX>
+                           <IconX><i className="uil uil-arrow-right"></i></IconX>
                         </EachCourseBoxBottom>
                 </EachCourseBox>
                 <EachCourseBox className="InMiddleCourse">
@@ -78,6 +78,7 @@ function Course (){
                     </CourseDateBox>
                 </CoursesDateBox2>
             </CoursesDateWrapper>
+            <Order/>
         </Container>
        </CourseBox>
         )
