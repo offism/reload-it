@@ -102,7 +102,7 @@ export const DimFone = Styled.div`
 position:absolute;
 height: 30vh;
 z-index:-1;
-width:100vw;
+width:1301px;
 background: url('https://catherineasquithgallery.com/uploads/posts/2021-03/1614627039_23-p-fon-dim-dlya-fotoshopa-29.jpg') no-repeat center center;
 `
 

@@ -1,7 +1,12 @@
 import Styled from 'styled-components'
 
 // ORDER SECTION *************************
-
+export const Container = Styled.div`
+display: flex;
+min-width: 880px;
+margin: 0 auto;
+flex-direction: column;
+`
 export const CourseOrder = Styled.div`
 display:flex;
 min-height: 50vh;
@@ -11,7 +16,7 @@ font-family: 'Play','League Spartan', 'Roboto';
 export const CourseOrderBox = Styled.div`
 position: absolute;
 left: 0;
-width: 100vw;
+width: 1299px;
 min-height: 100vh;
 z-index: -1;
 background: linear-gradient(45deg,#B2F042 17%,white 36%,#B2F042 72%);
@@ -42,16 +47,4 @@ color: #B286FD;
 font-size:22px;
 `
 export const CourseOrderListItem = Styled.span`
-`
-export const CourseOrderBtn = Styled.a`
-display: inline-block;
-background: #000;
-padding: 15px;
-color:white;
-width: fit-content;
-cursor: pointer;
-text-decoration: none;
-&:hover{
-    color:white;
-}
 `

@@ -1,10 +1,10 @@
 import React from 'react'
-import {Icon, CourseOrderBox,CourseOrder, CourseOrderTitle, CourseOrderBody, CourseOrderBtn ,CourseOrderText, CourseOrderList , CourseOrderListItem} from './order.js'
+import {Icon, Container,CourseOrderBox,CourseOrder, CourseOrderTitle, CourseOrderBody ,CourseOrderText, CourseOrderList , CourseOrderListItem} from './order.js'
 import FirstOrder from '../modals/FirstOrder.jsx'
 function Order (){
     return(
         <CourseOrder>
-          <FirstOrder/>
+          <Container>
             <CourseOrderBox></CourseOrderBox>
             <CourseOrderTitle>ТЫ ГОТОВ СТАТЬ ЛУЧШИМ?</CourseOrderTitle>
             <CourseOrderBody>
@@ -30,7 +30,8 @@ function Order (){
                     </CourseOrderListItem> 
                 </CourseOrderList>
             </CourseOrderBody>
-            <CourseOrderBtn>ЗАПИСАТЬСЯ НА КУРС</CourseOrderBtn>
+            <FirstOrder btnClass={`modalBtn`} btnText={`ЗАПИСАТЬСЯ НА КУРС`}/>
+          </Container>
         </CourseOrder>
     )
 }

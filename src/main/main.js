@@ -56,14 +56,15 @@ color: #B2F042`
 export const Lenta = Styled.div`
 font-family: 'Play', 'League Spartan', 'Roboto';
 display: flex;
-width: 100vw;
+align-items: center;
+width: 1301px;
 margin: 70px 0;
 padding: 10px 0;
 border-top: 1px solid #000; 
 border-bottom: 1px solid #000; 
 `
 export const MainLenta = Styled.h4`
-margin: 0 12px;
+margin: 0 9px;
 font-size:16px;
 `
 

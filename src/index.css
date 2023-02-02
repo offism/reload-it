@@ -11,7 +11,7 @@ body {
   -moz-transition: .3s ease all !important;
   -ms-transition: .3s ease all !important;
   -o-transition: .3s ease all !important;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 code {
@@ -38,4 +38,23 @@ img {
 
 .middleDateBox {
   margin: 0 30px;
+}
+
+.modalBtn {
+  display: inline-block;
+  background: #000 !important;
+  padding: 15px;
+  color: white !important;
+  width: fit-content;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 0 !important;
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  -ms-border-radius: 0 !important;
+  -o-border-radius: 0 !important;
+}
+
+.modalBtn:hover {
+  color: white;
 }
