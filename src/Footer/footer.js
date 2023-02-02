@@ -14,6 +14,8 @@ background: #262626;
 min-height: 40vh;
 color:white;
 padding: 30px;
+position: relative;
+    z-index: 0;
 font-family: 'Play','League Spartan', 'Roboto';
 
 `
@@ -45,6 +47,10 @@ export const SocialNetwork = Styled.a`
 margin-left: 10px;
 cursor:pointer;
 color: #B2F042;
+text-decoration: none;
+&:hover{
+    color: #B2F042;
+}
 `
 
 export const FooterBoot = Styled.div`

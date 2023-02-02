@@ -49,7 +49,7 @@ function Course (){
                         <CourseDateTitle >1 &nbsp;&nbsp;&nbsp;&nbsp;<br />МЕСЯЦ</CourseDateTitle>
                         <CourseDateName >ОСНОВЫ ЯЗЫКА SWIFT</CourseDateName>
                     </CourseDateBox>
-                    <CourseDateBox>
+                    <CourseDateBox className='middleDateBox'>
                         <CourseDateTitle>2 &nbsp;&nbsp;&nbsp;&nbsp;<br />МЕСЯЦ</CourseDateTitle>
                         <CourseDateName>UI KIT</CourseDateName>
                     </CourseDateBox>
@@ -63,7 +63,7 @@ function Course (){
                         <CourseDateTitle>4 &nbsp;&nbsp;&nbsp;&nbsp;<br />МЕСЯЦ</CourseDateTitle>
                         <CourseDateName>МЕНЕДЖЕОЫ ЗАВИСИМОСТИ И АНИМАЦИИ</CourseDateName>
                     </CourseDateBox>
-                    <CourseDateBox>
+                    <CourseDateBox className='middleDateBox'>
                         <CourseDateTitle>5 &nbsp;&nbsp;&nbsp;&nbsp;<br />МЕСЯЦ</CourseDateTitle>
                         <CourseDateName>API И GIT</CourseDateName>
                     </CourseDateBox>

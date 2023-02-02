@@ -12,7 +12,7 @@ export const CourseOrderBox = Styled.div`
 position: absolute;
 left: 0;
 width: 100vw;
-min-height: 70vh;
+min-height: 100vh;
 z-index: -1;
 background: linear-gradient(45deg,#B2F042 17%,white 36%,#B2F042 72%);
 `
@@ -50,5 +50,8 @@ padding: 15px;
 color:white;
 width: fit-content;
 cursor: pointer;
-
+text-decoration: none;
+&:hover{
+    color:white;
+}
 `

@@ -35,3 +35,7 @@ img {
 .blackIcon {
   color: #000;
 }
+
+.middleDateBox {
+  margin: 0 30px;
+}

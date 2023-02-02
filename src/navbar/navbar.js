@@ -7,6 +7,9 @@ margin: 0 auto;
 justify-content: space-between;
 `
 export const Nav = Styled.div`
+position: sticky;
+top:0;
+z-index:3;
 display: flex;
 color: #000;
 background: white;

@@ -14,14 +14,20 @@ export const Container = Styled.div`
 display: flex;
 align-items: center;
 flex-direction: column;
+
+max-width: 880px;
 `
 
 export const CourseBox = Styled.div`
 display: flex;
+align-items: center;
 flex-direction: column;
 border-radius: 5px;
 border: 2px solid #000;
-padding: 40px 200px;
+padding: 40px 0;
+background: #EEF0F4;
+position: relative;
+z-index: 0;
 `
 export const MainCourseTitleBox = Styled.div`
 display: flex;
@@ -30,9 +36,8 @@ align-items: flex-start;
 `
 export const MainCourseTitle = Styled.h2`
 color:#000;
-margin: 20px 0;
+margin: 30px 0;
 font-family: 'Play','League Spartan', 'Roboto';
-
 `
 
 export const CoursesBox = Styled.div`
@@ -47,25 +52,26 @@ justify-content: space-between;
 export const EachCourseBox = Styled.div`
 display: flex;
 width:300px;
-height:150px;
+min-height: 160px;
 border-radius: 5px;
-padding: 30px 15px;
+padding: 20px 15px;
 flex-direction:column;
 border: 2px solid #000;
 `
 
 
 export const CourseTitle = Styled.h2`
+font-size: 22px;
 color:#000;
 width: 70%;
-margin: 0;
+margin: 0 0 10px 0;
 font-family: 'Play','League Spartan', 'Roboto';
-
 `
 
 export const CourseCount = Styled.p`
 color:#B286FD;
 font-family: 'Play','League Spartan', 'Roboto';
+margin: 0;
 `
 export const EachCourseBoxBottom = Styled.div`
 display: flex;
@@ -76,9 +82,10 @@ color:#000;
 
 export const CourseDuration = Styled.p`
 font-family: 'Play','League Spartan', 'Roboto';
+margin: 0;
 `
 export const DimBox = Styled.div`
-margin: 80px 0;
+margin: 90px 0;
 align-items:center;
 display: flex;
 height: 20vh;
@@ -115,9 +122,10 @@ border: 2px solid #B2F042;
 padding:10px;
 transition: .3s ease all;
 cursor:pointer;
+text-decoration: none;
 &:hover{
     color: #000;
-background:#B2F042;
+    background:#B2F042;
 }
 `
 export const CoursesDateWrapper = Styled.div`
@@ -145,11 +153,11 @@ export const CourseDateBox = Styled.a`
 display: flex;
 align-items: flex-start;
 border: 2px solid #000;
-margin:15px;
+text-decoration: none;
 padding: 20px 30px;
 border-radius: 10px;
-min-height: 190px;
-min-width: 110px;
+min-height: 250px;
+min-width: 170px;
 flex-direction:column;
 justify-content: flex-start;
 cursor:pointer;
@@ -164,13 +172,15 @@ transition: .3s ease all;
 export const CourseDateTitle = Styled.h2`
 color:#000;
 margin-right: auto;
+font-size: 30px;
 font-family: 'Play','League Spartan', 'Roboto';
 `
 export const CourseDateName = Styled.h4`
 color: #000;
 font-family: 'Play','League Spartan', 'Roboto';
-width:40%;
-margin-bottom:0;
+width: 90%;
+margin:0 auto 0 0;
+font-size: 20px;
 `
 export const CourseDateWrapper = Styled.div`
 flex-direction:row;

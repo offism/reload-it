@@ -6,6 +6,9 @@ flex-direction: column;
 height: 100vh;
 align-items: center;
 justify-content: center;
+position: sticky;
+top: 50px;
+z-index: -1;
 `
 export const MainMiniBox = Styled.div`
 display: flex;
