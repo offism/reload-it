@@ -8,7 +8,7 @@ align-items: center;
 justify-content: center;
 position: sticky;
 top: 50px;
-z-index: -1;
+z-index: 0;
 `
 export const MainMiniBox = Styled.div`
 display: flex;
@@ -41,6 +41,7 @@ width:100%;
 border-radius: 8px;
 font-family: 'Play','League Spartan', 'Roboto';
 position: relative;
+outline: none;
 `
 
 export const Label = Styled.label`

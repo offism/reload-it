@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
 import Modal from 'react-bootstrap/Modal';
-
+import {ModalBox, ModalBoxHeader, ModalCloseBtn,ModalTextHeader,ModalText,ModalTitle,ModalForm, ModalInput,ModalSubmitBtn} from './firstOrder.js'
 function FirstOrder({btnText, btnClass}) {
   const [show, setShow] = useState(false);
 
@@ -17,36 +16,21 @@ function FirstOrder({btnText, btnClass}) {
       </Button>
 
       <Modal show={show} onHide={handleClose}>
-        <Modal.Header closeButton>
-          <Modal.Title>Modal heading</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <Form>
-            <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-              <Form.Label>Email address</Form.Label>
-              <Form.Control
-                type="email"
-                placeholder="name@example.com"
-                autoFocus
-              />
-            </Form.Group>
-            <Form.Group
-              className="mb-3"
-              controlId="exampleForm.ControlTextarea1"
-            >
-              <Form.Label>Example textarea</Form.Label>
-              <Form.Control as="textarea" rows={3} />
-            </Form.Group>
-          </Form>
-        </Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
-            Close
-          </Button>
-          <Button variant="primary" onClick={handleClose}>
-            Save Changes
-          </Button>
-        </Modal.Footer>
+        <ModalBox>
+          <ModalBoxHeader>
+            <ModalCloseBtn onClick={handleClose}><i className="uil uil-multiply"></i></ModalCloseBtn>
+          </ModalBoxHeader>
+          <ModalTextHeader>
+            <ModalTitle><span className='modalSpan'>ЗАЯВКА</span> НА КУРС</ModalTitle>
+            <ModalText>Оставьте заявку и мы свяяжемся с вами в ближайшее время</ModalText>
+          </ModalTextHeader>
+          <ModalForm>
+            <ModalInput type={'text'} placeholder={'имя'}/>
+            <ModalInput type={'phone'} placeholder={'номер телефона'}/>
+            <ModalInput type={'text'} placeholder={'telegram username'}/>
+            <ModalSubmitBtn onClick={handleClose}>Отправить</ModalSubmitBtn>
+          </ModalForm>
+        </ModalBox>
       </Modal>
     </>
   );

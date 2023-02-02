@@ -48,6 +48,7 @@ img {
   width: fit-content;
   cursor: pointer;
   text-decoration: none;
+  border: none !important;
   border-radius: 0 !important;
   -webkit-border-radius: 0 !important;
   -moz-border-radius: 0 !important;
@@ -57,4 +58,9 @@ img {
 
 .modalBtn:hover {
   color: white;
+}
+
+.modalSpan {
+  color: #B286FD;
+
 }
