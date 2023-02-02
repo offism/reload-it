@@ -1,9 +1,10 @@
 import React from 'react'
 import {Icon, CourseOrderBox,CourseOrder, CourseOrderTitle, CourseOrderBody, CourseOrderBtn ,CourseOrderText, CourseOrderList , CourseOrderListItem} from './order.js'
-
+import FirstOrder from '../modals/FirstOrder.jsx'
 function Order (){
     return(
         <CourseOrder>
+          <FirstOrder/>
             <CourseOrderBox></CourseOrderBox>
             <CourseOrderTitle>ТЫ ГОТОВ СТАТЬ ЛУЧШИМ?</CourseOrderTitle>
             <CourseOrderBody>

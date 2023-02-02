@@ -2,11 +2,10 @@ import Styled from 'styled-components'
 
 export const MainBox = Styled.div`
 display: flex;
-position: sticky;
 flex-direction: column;
-height: 80vh;
+height: 100vh;
 align-items: center;
-justify-content: flex-start;
+justify-content: center;
 `
 export const MainMiniBox = Styled.div`
 display: flex;
@@ -21,6 +20,7 @@ color: #000;
 letter-spacing: 5px;
 font-family: 'Play','League Spartan', 'Roboto';
 font-weight:900;
+margin-bottom: 50px;
 `
 
 export const InputWrapper = Styled.div`
@@ -61,5 +61,6 @@ border-bottom: 1px solid #000;
 `
 export const MainLenta = Styled.h4`
 margin: 0 12px;
+font-size:16px;
 `
 

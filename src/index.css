@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&family=Roboto:wght@300&display=swap');
 
 body {
-  margin: 0;
+  margin: 0 !important;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #EEF0F4;
-  transition: .3s ease all;
-  -webkit-transition: .3s ease all;
-  -moz-transition: .3s ease all;
-  -ms-transition: .3s ease all;
-  -o-transition: .3s ease all;
+  background: #EEF0F4 !important;
+  transition: .3s ease all !important;
+  -webkit-transition: .3s ease all !important;
+  -moz-transition: .3s ease all !important;
+  -ms-transition: .3s ease all !important;
+  -o-transition: .3s ease all !important;
   overflow-x: hidden;
 }
 

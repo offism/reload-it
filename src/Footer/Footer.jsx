@@ -1,11 +1,9 @@
 import React from 'react'
 import {FooterBox,Container, Email,FooterBootTitle,FooterHead,FooterBoot,FooterBootBody, PhoneLabel,FooterHeadBody, ContactData,SocialNetworks,SocialNetwork} from './footer.js'
-
 function Footer (){
     return (
         <FooterBox>
             <Container>
-
             <FooterHead>
                 <PhoneLabel htmlFor={'phone-number'}>Телефон</PhoneLabel>
                 <FooterHeadBody>
