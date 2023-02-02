@@ -40,10 +40,32 @@ img {
   margin: 0 30px;
 }
 
-.modalBtn {
+.modalBtn1 {
+  color: #B2F042 !important;
+  font-size: 24px !important;
+  font-family: 'Play', 'League Spartan', 'Roboto' !important;
+  border: 2px solid #B2F042 !important;
+  padding: 10px !important;
+  transition: .3s ease all !important;
+  cursor: pointer;
+  text-decoration: none;
+  background: transparent !important;
+  -webkit-transition: .3s ease all !important;
+  -moz-transition: .3s ease all !important;
+  -ms-transition: .3s ease all !important;
+  -o-transition: .3s ease all !important;
+}
+
+.modalBtn1:hover {
+  color: #000 !important;
+  background: #B2F042 !important;
+
+}
+
+.modalBtn2 {
   display: inline-block;
   background: #000 !important;
-  padding: 15px;
+  padding: 15px !important;
   color: white !important;
   width: fit-content;
   cursor: pointer;
@@ -56,7 +78,7 @@ img {
   -o-border-radius: 0 !important;
 }
 
-.modalBtn:hover {
+.modalBtn2:hover {
   color: white;
 }
 

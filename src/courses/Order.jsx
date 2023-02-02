@@ -30,7 +30,7 @@ function Order (){
                     </CourseOrderListItem> 
                 </CourseOrderList>
             </CourseOrderBody>
-            <FirstOrder btnClass={`modalBtn`} btnText={`ЗАПИСАТЬСЯ НА КУРС`}/>
+            <FirstOrder btnClass={`modalBtn2`} btnText={`ЗАПИСАТЬСЯ НА КУРС`} modalTitle1={`ЗАЯВКА`}modalTitle2={`НА КУРС`} modalTitleText={`Оставьте заявку и мы свяяжемся с вами в ближайшее время`}/>
           </Container>
         </CourseOrder>
     )
