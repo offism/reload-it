@@ -1,5 +1,5 @@
 import React from 'react'
-import {Icon,IconX,CourseDateText,CourseDateWrapper,CourseDatewrapper,Container,CourseBox,MainCourseTitleBox, MainCourseTitle, CoursesBox,EachCourseBox,CourseTitle,CourseCount,CourseHeader,EachCourseBoxBottom ,CourseDuration,DimBox, DimFone,DimTitle,DimBtn,DimBottom,CoursesDateWrapper,CoursesDateBox1, CoursesDateBox2, CourseDateBox, CourseDateName, CourseDateTitle} from './course.js'
+import {Icon,PseudoText,PseudoWrapper,IconX,CourseDateText,CourseDateWrapper,CourseDatewrapper,Container,CourseBox,MainCourseTitleBox, MainCourseTitle, CoursesBox,EachCourseBox,CourseTitle,CourseCount,CourseHeader,EachCourseBoxBottom ,CourseDuration,DimBox, DimFone,DimTitle,DimBtn,DimBottom,CoursesDateWrapper,CoursesDateBox1, CoursesDateBox2, CourseDateBox, CourseDateName, CourseDateTitle} from './course.js'
 import Order from './Order.jsx'
 import FirstOrder from './../modals/FirstOrder.jsx'
 function Course (){
@@ -10,7 +10,7 @@ function Course (){
                 <MainCourseTitle>Курсы</MainCourseTitle>
             </MainCourseTitleBox>
             <CoursesBox>
-               <EachCourseBox>
+               <EachCourseBox className='firstCourse' href={'./../eachCourse/EachCourse '}>
                     <CourseHeader> 
                       <CourseTitle>IOS РАЗРАБОТКА</CourseTitle>
                       <Icon><i className="uil uil-google-drive-alt"></i></Icon>
@@ -21,13 +21,19 @@ function Course (){
                            <IconX><i className="uil uil-arrow-right"></i></IconX>
                         </EachCourseBoxBottom>
                 </EachCourseBox>
-                <EachCourseBox className="InMiddleCourse">
+                <EachCourseBox className="InMiddleCourse withPseudo">
+                    <PseudoWrapper>
+                       <PseudoText>СКОРО</PseudoText>
+                    </PseudoWrapper>
                     <CourseHeader> 
                        <CourseTitle>MOBILE DEVELOPMENT</CourseTitle>
                        <Icon><i className="uil uil-google-drive-alt"></i></Icon>
                     </CourseHeader>
                 </EachCourseBox>
-                <EachCourseBox>
+                <EachCourseBox className='withPseudo'>
+                    <PseudoWrapper>
+                       <PseudoText>СКОРО</PseudoText>
+                    </PseudoWrapper>
                     <CourseHeader> 
                        <CourseTitle>ANDROID KOTLIN</CourseTitle>
                        <Icon><i className="uil uil-google-drive-alt"></i></Icon>

@@ -8,6 +8,7 @@ specifiers:
   react: ^18.2.0
   react-bootstrap: ^2.7.0
   react-dom: ^18.2.0
+  react-router: ^6.8.0
   react-router-dom: ^6.8.0
   react-scripts: 5.0.1
   styled-components: ^5.3.6
@@ -21,6 +22,7 @@ dependencies:
   react: 18.2.0
   react-bootstrap: 2.7.0_biqbaboplfbrettd7655fr4n2y
   react-dom: 18.2.0_react@18.2.0
+  react-router: 6.8.0_react@18.2.0
   react-router-dom: 6.8.0_biqbaboplfbrettd7655fr4n2y
   react-scripts: 5.0.1_react@18.2.0
   styled-components: 5.3.6_biqbaboplfbrettd7655fr4n2y

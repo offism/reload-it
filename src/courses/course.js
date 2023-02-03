@@ -1,7 +1,7 @@
 import Styled from 'styled-components'
 
 export const Icon = Styled.span`
-color: #B2F042;
+color: #B2F030;
 font-size:32px;
 `
 export const IconX = Styled.span`
@@ -49,14 +49,16 @@ display: flex;
 align-items: flex-start;
 justify-content: space-between;
 `
-export const EachCourseBox = Styled.div`
+export const EachCourseBox = Styled.a`
 display: flex;
 width:300px;
 min-height: 160px;
 border-radius: 5px;
 padding: 20px 15px;
+text-decoration: none;
 flex-direction:column;
 border: 2px solid #000;
+transition: .3s ease all;
 `
 
 
@@ -192,6 +194,25 @@ export const CourseDateText = Styled.p`
 color:#000;
 font-family: 'Play','League Spartan', 'Roboto';
 width:60%;
+`
+export const PseudoWrapper = Styled.div`
+display: flex;
+align-items:center;
+justify-content: center;
+width:100%;
+height: 100%;
+position: absolute;
+`
+export const PseudoText = Styled.p`
+color:#fff;
+font-family: 'Play','League Spartan', 'Roboto';
+position: absolute;
+z-index: 1;
+font-size:26px;
+letter-spacing:5px;
+transform: rotate(-30deg);
+top: 28%;
+left: 22%;
 `
 
 
