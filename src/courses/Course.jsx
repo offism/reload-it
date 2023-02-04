@@ -1,15 +1,17 @@
 import React from 'react'
-import {Icon,PseudoText,PseudoWrapper,IconX,CourseDateText,CourseDateWrapper,CourseDatewrapper,Container,CourseBox,MainCourseTitleBox, MainCourseTitle, CoursesBox,EachCourseBox,CourseTitle,CourseCount,CourseHeader,EachCourseBoxBottom ,CourseDuration,DimBox, DimFone,DimTitle,DimBtn,DimBottom,CoursesDateWrapper,CoursesDateBox1, CoursesDateBox2, CourseDateBox, CourseDateName, CourseDateTitle} from './course.js'
+import {Icon,PseudoText,PseudoWrapper,IconX,CourseDateText,CourseDateWrapper,CourseDatewrapper,Container,CourseBox,MainCourseTitleBox, MainCourseTitle, CoursesBox,EachCourseBox,CourseTitle,CourseCount,CourseHeader,EachCourseBoxBottom ,CourseDuration,DimBox, DimFone,DimTitle,DimBottom,CoursesDateWrapper,CoursesDateBox1, CoursesDateBox2, CourseDateBox, CourseDateName, CourseDateTitle} from './course.js'
 import Order from './Order.jsx'
 import FirstOrder from './../modals/FirstOrder.jsx'
+import { Link } from 'react-router-dom'
 function Course (){
     return (
-       <CourseBox>
+       <CourseBox id="course">
         <Container>
             <MainCourseTitleBox>
                 <MainCourseTitle>Курсы</MainCourseTitle>
             </MainCourseTitleBox>
             <CoursesBox>
+               <Link className='TDnone' to={'/courses/ios'}>
                <EachCourseBox className='firstCourse' href={'./../eachCourse/EachCourse '}>
                     <CourseHeader> 
                       <CourseTitle>IOS РАЗРАБОТКА</CourseTitle>
@@ -21,6 +23,7 @@ function Course (){
                            <IconX><i className="uil uil-arrow-right"></i></IconX>
                         </EachCourseBoxBottom>
                 </EachCourseBox>
+                </Link>
                 <EachCourseBox className="InMiddleCourse withPseudo">
                     <PseudoWrapper>
                        <PseudoText>СКОРО</PseudoText>

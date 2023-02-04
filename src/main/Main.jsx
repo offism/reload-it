@@ -5,7 +5,7 @@ function Main (){
     return (
         <MainBox>
             <MainMiniBox>
-               <MainTitle>RELOAD IT ACADEMY</MainTitle>
+               <MainTitle><span className='reloadSpan'>RELOAD</span><br />IT ACADEMY</MainTitle>
                <InputWrapper>
                    <MainInput id={'search-input'} placeholder={'Найти курс...'}/>
                    <Label htmlFor={'search-input'}><i className="uil uil-search"></i></Label>

@@ -15,7 +15,7 @@ color: #000;
 background: white;
 font-family: 'League Spartan', 'Roboto';
 font-weight:700;
-padding: 10px;
+padding-top: 10px;
 `
 
 export const NavLinkBox = Styled.div`
@@ -23,22 +23,27 @@ display: flex;
 align-items:center; 
 `
 
-export const Logo = Styled.img`
+export const Logo = Styled.div`
 width: 30px;
 height: 30px;
+background-size: contain;
+background-color: #000;
+background: url(${(props)=> props.imgUrl});
 `
 
-export const Navlink1 = Styled.a``
 export const Navlink = Styled.a`
 background: transparent;
+font-family: 'League Spartan', 'Roboto';
 display: flex;
 align-items:center; 
 text-decoration:none;
 margin-left:  50px;
+padding: 0;
+font-weight:700;
+border: none;
+background: transparent;
 color: #000;
-transition: 5s ease all;
 &:hover{
-    border-bottom: 1px solid #000;
     color: #000;
 }
 `

@@ -5,7 +5,7 @@ function Order (){
     return(
         <CourseOrder>
           <Container>
-            <CourseOrderBox></CourseOrderBox>
+            <CourseOrderBox className='PseudoBackground'></CourseOrderBox>
             <CourseOrderTitle>ТЫ ГОТОВ СТАТЬ ЛУЧШИМ?</CourseOrderTitle>
             <CourseOrderBody>
                 <CourseOrderText>Продолжай обучение и пройди в следующий этап, там ты получишь</CourseOrderText>

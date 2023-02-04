@@ -1,20 +1,19 @@
 import React from 'react'
-import {Nav, NavLinkBox, Logo,Navlink,Navlink1 , Container} from './navbar.js'
+import {Nav, NavLinkBox,Navlink,Navlink1 , Container} from './navbar.js'
 
 function NavbarMenu (){
     return (
         <Nav>
             <Container>
-
             <NavLinkBox>
-                <Navlink1 href={'/'}>
-                    <Logo src={"https://picsum.photos/200/300"}/>
-                </Navlink1>
+                <Navlink className='bitcoin'  href={'/'}>
+                   <i className="uil uil-bitcoin"></i>
+                </Navlink>
             </NavLinkBox>
             <NavLinkBox>
-                <Navlink href={'/'}>КУРСЫ</Navlink>
+                <Navlink href={'#course'}>КУРСЫ</Navlink>
                 <Navlink href={'/'}>ЛОКАЦИЯ</Navlink>
-                <Navlink href={'/'}>КОНТАКТЫ</Navlink>
+                <Navlink href={'#contact'}>КОНТАКТЫ</Navlink>
             </NavLinkBox>
             </Container>
         </Nav> 

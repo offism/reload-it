@@ -49,7 +49,7 @@ display: flex;
 align-items: flex-start;
 justify-content: space-between;
 `
-export const EachCourseBox = Styled.a`
+export const EachCourseBox = Styled.div`
 display: flex;
 width:300px;
 min-height: 160px;
@@ -116,20 +116,6 @@ font-size:50px;
 font-family: 'Play','League Spartan', 'Roboto';
 `
 
-export const DimBtn = Styled.a`
-color: #B2F042;
-font-size:24px;
-font-family: 'Play','League Spartan', 'Roboto';
-border: 2px solid #B2F042;
-padding:10px;
-transition: .3s ease all;
-cursor:pointer;
-text-decoration: none;
-&:hover{
-    color: #000;
-    background:#B2F042;
-}
-`
 export const CoursesDateWrapper = Styled.div`
 display: flex;
 align-items:center;

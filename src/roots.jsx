@@ -1,19 +1,16 @@
 import React, {Component} from "react";
-// import { Switch , Route} from "react-router-dom";
-import Navbar from './navbar/Navbar.jsx'
+import { Routes , Route} from "react-router-dom";
 import EachCourse from './eachCourse/EachCourse.jsx'
+import App from "./App.js";
 
 export default class Roots extends Component{
     render(){
         return(
             <>
-            <Navbar/>
-            {/* <Switch> */}
-                {/* <Route path={'/courses/ios'} component={Navbar}/> */}
-            {/* </Switch> */}
-            {/* <Switch> */}
-                {/* <Route path={'/courses/ios'} component={EachCourse}/> */}
-            {/* </Switch> */}
+            <Routes>
+                <Route path="/" element={<App/>}/>
+                <Route path="/courses/ios" element={<EachCourse/>}/>
+            </Routes>
             </>
         )
     }

@@ -1,12 +1,18 @@
 import React  from 'react'
+import { Link } from 'react-router-dom'
+import Navbar from './../navbar/Navbar.jsx'
 import {EachCourseBox,Container,Icon,ChevronLeftBtn,EachCourseHeader,EachCourseMainTitle,EachCourseMainText,EachCourseMainBtn,EachCourseBody,EachCourseBodyHead,EachCourseBodyHeadItem,EachCourseBodyBoot,EachCourseBodyBootTitle,EachCourseBodyBootTextItem, EachCourseBodyFooter,EachCourseBodyFooterHead} from './eachCourse.js'
 import {SocialNetwork,SocialNetworks,ContactData,Email,PhoneLabel} from './../Footer/footer'
 function Course (){
     return (
+        <>
+        <Navbar/>
        <EachCourseBox>
         <Container>
             <EachCourseHeader>
+            <Link className='TDnone' to={'/'}>
                 <ChevronLeftBtn><i className="uil uil-arrow-left"></i></ChevronLeftBtn>
+            </Link>
                 <EachCourseMainTitle><span className='modalSpan'>IOS</span> РАЗРАБОТКА</EachCourseMainTitle>
                 <EachCourseMainText>Разработка iOS — это процесс создания приложений для мобильной операционной системы Apple. Она включает в себя проектирование, кодирование, тестирование и развертывание приложений iOS на iPad и iPhone.</EachCourseMainText>
                 <EachCourseMainBtn>ЗАПИСАТЬСЯ</EachCourseMainBtn>
@@ -47,6 +53,7 @@ function Course (){
             </EachCourseBody>
         </Container>
        </EachCourseBox>
+        </>
         )
 }
 

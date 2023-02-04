@@ -40,6 +40,11 @@ img {
   margin: 0 30px;
 }
 
+.reloadSpan {
+  color: #B2F042;
+
+}
+
 .modalBtn1 {
   color: #B2F042 !important;
   font-size: 24px !important;
@@ -136,7 +141,7 @@ img {
   content: 'СКОРО';
   color: #fff;
   width: 25%;
-  height: 200%;
+  height: 210%;
   transform: rotate(60deg);
   background: #B2F042;
   position: absolute;
@@ -150,4 +155,48 @@ img {
 
 .firstCourse:hover {
   background: #B2F042;
+}
+
+.TDnone {
+  text-decoration: none;
+}
+
+.bitcoin {
+  color: #000;
+  font-size: 30px;
+  margin: 0 !important;
+}
+
+.PseudoBackground {
+  overflow: hidden;
+}
+
+.PseudoBackground::before {
+  content: '';
+  position: absolute;
+  width: 85%;
+  height: 40%;
+  transform: rotate(50deg);
+  background: #EEF0F4;
+  top: 0;
+  left: -25%;
+  -webkit-transform: rotate(50deg);
+  -moz-transform: rotate(50deg);
+  -ms-transform: rotate(50deg);
+  -o-transform: rotate(50deg);
+}
+
+.PseudoBackground::after {
+  content: '';
+  position: absolute;
+  width: 85%;
+  height: 40%;
+  transform: rotate(50deg);
+  background: #EEF0F4;
+  top: 0;
+  left: 25%;
+  -webkit-transform: rotate(50deg);
+  -moz-transform: rotate(50deg);
+  -ms-transform: rotate(50deg);
+  -o-transform: rotate(50deg);
 }
