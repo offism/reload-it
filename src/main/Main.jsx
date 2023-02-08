@@ -1,5 +1,6 @@
 import React from 'react'
-import {MainTitle, MainBox,MainMiniBox,MainInput,Label, Lenta, MainLenta, InputWrapper, Icon} from './main.js'
+import {MainTitle, MainBox, MainMiniBox, MainInput, Label, InputWrapper} from './main.js'
+import { Marque } from '../modules/Marquee.jsx'
 
 function Main (){
     return (
@@ -11,36 +12,7 @@ function Main (){
                    <Label htmlFor={'search-input'}><i className="uil uil-search"></i></Label>
                </InputWrapper>  
             </MainMiniBox>
-            <Lenta>
-                <MainLenta>ANDROIN-KOTLIN</MainLenta>
-                <Icon>
-                   <i className="uil uil-google-drive-alt"></i>
-                </Icon>
-                <MainLenta>IOS-SWIFTSWIFT-UI</MainLenta>
-                <Icon>
-                   <i className="uil uil-google-drive-alt"></i>
-                </Icon>
-                <MainLenta>MOBILE-DEVELOPMENT</MainLenta>
-                <Icon>
-                   <i className="uil uil-google-drive-alt"></i>
-                </Icon>
-                <MainLenta>WEB-SITES</MainLenta>
-                <Icon>
-                   <i className="uil uil-google-drive-alt"></i>
-                </Icon>
-                <MainLenta>ANDROIN-KOTLIN</MainLenta>
-                <Icon>
-                   <i className="uil uil-google-drive-alt"></i>
-                </Icon>
-                <MainLenta>IOS-SWIFTSWIFT-UI</MainLenta>
-                <Icon>
-                   <i className="uil uil-google-drive-alt"></i>
-                </Icon>
-                <MainLenta>MOBILE-DEVELOPMENT</MainLenta>
-                <Icon>
-                   <i className="uil uil-google-drive-alt"></i>
-                </Icon>
-            </Lenta>
+            <Marque/>
         </MainBox>
     )
 }
