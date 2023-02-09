@@ -1,9 +1,21 @@
-import React from 'react'
-import {Nav, NavLinkBox,Navlink,Navlink1 , Container} from './navbar.js'
+import React, { useState } from 'react'
+import {Nav, NavLinkBox,Navlink , Container} from './navbar.js'
 
 function NavbarMenu (){
+
+const [navbar, setNavbar] = useState(false)
+
+const changeBackground = ()=>{
+    if(window.scrollY){
+        setNavbar(true)
+    }    else{
+        setNavbar(false)
+    }
+}
+    window.addEventListener('scroll',changeBackground)
+    
     return (
-        <Nav>
+        <Nav className={navbar ? 'navActive' : ''}>
             <Container>
             <NavLinkBox>
                 <Navlink className='bitcoin'  href={'/'}>

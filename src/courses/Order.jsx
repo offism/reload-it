@@ -6,7 +6,8 @@ function Order (){
         <CourseOrder>
           <Container>
             <CourseOrderBox className='PseudoBackground'></CourseOrderBox>
-            <CourseOrderTitle>ТЫ ГОТОВ СТАТЬ ЛУЧШИМ?</CourseOrderTitle>
+            <CourseOrderTitle data-aos="fade-down"
+                              data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="200">ТЫ ГОТОВ СТАТЬ ЛУЧШИМ?</CourseOrderTitle>
             <CourseOrderBody>
                 <CourseOrderText>Продолжай обучение и пройди в следующий этап, там ты получишь</CourseOrderText>
                 <CourseOrderList>

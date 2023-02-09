@@ -65,7 +65,7 @@ border-top: 1px solid #000;
 border-bottom: 1px solid #000; 
 `
 export const MainLenta = Styled.h4`
-margin: 0 9px;
+margin: 0 11px;
 font-size:16px;
 `
 

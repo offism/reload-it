@@ -12,7 +12,7 @@ function Course (){
             </MainCourseTitleBox>
             <CoursesBox>
                <Link className='TDnone' to={'/courses/ios'}>
-               <EachCourseBox className='firstCourse' href={'./../eachCourse/EachCourse '}>
+               <EachCourseBox className='firstCourse'>
                     <CourseHeader> 
                       <CourseTitle>IOS РАЗРАБОТКА</CourseTitle>
                       <Icon><i className="uil uil-google-drive-alt"></i></Icon>

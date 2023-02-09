@@ -153,6 +153,10 @@ img {
   -o-transform: rotate(60deg);
 }
 
+.navActive {
+  background: #FFFEFE !important;
+}
+
 .firstCourse:hover {
   background: #B2F042;
 }
