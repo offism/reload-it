@@ -24,9 +24,9 @@ const changeBackground = ()=>{
                 </Link>
             </NavLinkBox>
             <NavLinkBox>
-                <Navlink href={'#course'}>КУРСЫ</Navlink>
-                <Navlink href={'/'}>ЛОКАЦИЯ</Navlink>
-                <Navlink href={'#contact'}>КОНТАКТЫ</Navlink>
+                <Navlink href={'#aboutus'}>О НАС</Navlink>
+                <Navlink href={'#course'}>КУРС</Navlink>
+                <Navlink href={'#contact'}>СВЯЗАТЬСЯ</Navlink>
             </NavLinkBox>
             </Container>
         </Nav> 

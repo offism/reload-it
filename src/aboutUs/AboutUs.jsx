@@ -2,7 +2,7 @@ import React from 'react'
 import {AboutUsBox,Container,AboutUsWrapper,AboutUsText,AboutUsBtn,AboutUsMainTitle,AboutUsTitle,AboutUsTextBox,AboutUsVideoBox} from './aboutUs.js'
 function AboutUs (){
     return (
-        <AboutUsBox>
+        <AboutUsBox id="aboutus">
           <Container>
             <AboutUsWrapper>
              <AboutUsTextBox>
