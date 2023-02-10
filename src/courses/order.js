@@ -19,7 +19,6 @@ left: 0;
 width: 1299px;
 min-height: 100vh;
 z-index: -1;
-// background: linear-gradient(45deg,#B2F042 17%,white 36%,#B2F042 72%);
 background: #B2F042;
 `
 export const CourseOrderTitle = Styled.h2`

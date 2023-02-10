@@ -87,7 +87,9 @@ font-family: 'Play','League Spartan', 'Roboto';
 margin: 0;
 `
 export const DimBox = Styled.div`
-margin: 90px 0;
+margin: 90px 0 30px;
+position: relative;
+z-index:1;
 align-items:center;
 display: flex;
 height: 20vh;

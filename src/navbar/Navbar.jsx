@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import {Nav, NavLinkBox,Navlink , Container, Logo} from './navbar.js'
 import logo from './../assets/logotip.png'
+import { Link } from 'react-router-dom'
 function NavbarMenu (){
 
 const [navbar, setNavbar] = useState(false)
@@ -18,9 +19,9 @@ const changeBackground = ()=>{
         <Nav className={navbar ? 'navActive' : ''}>
             <Container>
             <NavLinkBox>
-                <Navlink className='bitcoin'  href={'/'}>
+                <Link to={'/'}>
                     <Logo src={logo}/>
-                </Navlink>
+                </Link>
             </NavLinkBox>
             <NavLinkBox>
                 <Navlink href={'#course'}>КУРСЫ</Navlink>
