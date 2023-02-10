@@ -1,6 +1,7 @@
 import React, { useLayoutEffect }  from 'react'
 import { Link } from 'react-router-dom'
 import Navbar from './../navbar/Navbar.jsx'
+import CoursePlan from '../coursePlan/CoursePlan.jsx'
 import {EachCourseBox,Container,Icon,ChevronLeftBtn,EachCourseHeader,EachCourseMainTitle,EachCourseMainText,EachCourseMainBtn,EachCourseBody,EachCourseBodyHead,EachCourseBodyHeadItem,EachCourseBodyBoot,EachCourseBodyBootTitle,EachCourseBodyBootTextItem, EachCourseBodyFooter,EachCourseBodyFooterHead} from './eachCourse.js'
 import {SocialNetwork,SocialNetworks,ContactData,Email,PhoneLabel} from './../Footer/footer'
 function Course (){
@@ -33,6 +34,7 @@ function Course (){
                     <EachCourseBodyBootTextItem><Icon><i className="uil uil-google-drive-alt"></i></Icon> Верстать графические интерфейсы</EachCourseBodyBootTextItem>
                     <EachCourseBodyBootTextItem><Icon><i className="uil uil-google-drive-alt"></i></Icon> Загружать свои проекты в App Store</EachCourseBodyBootTextItem>
                 </EachCourseBodyBoot>
+                <CoursePlan/>
                 <EachCourseBodyFooter>
                     <EachCourseBodyFooterHead>
                         <PhoneLabel className='ECLabel'>

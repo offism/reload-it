@@ -36,10 +36,6 @@ img {
   color: #000;
 }
 
-.middleDateBox {
-  margin: 0 30px;
-}
-
 .reloadSpan {
   color: #B2F042;
 
@@ -89,7 +85,10 @@ img {
 
 .modalSpan {
   color: #B286FD;
+}
 
+.lastTextBox {
+  background: #B286FD;
 }
 
 .leftItem {
@@ -163,12 +162,6 @@ img {
 
 .TDnone {
   text-decoration: none;
-}
-
-.bitcoin {
-  color: #000;
-  font-size: 30px;
-  margin: 0 !important;
 }
 
 .PseudoBackground {
