@@ -7,7 +7,7 @@ height: 100vh;
 align-items: center;
 justify-content: center;
 position: sticky;
-top: 60px;
+top: 80px;
 z-index: 0;
 `
 export const MainMiniBox = Styled.div`
