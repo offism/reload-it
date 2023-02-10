@@ -16,7 +16,7 @@ color: #000;
 background: transparent;
 font-family: 'League Spartan', 'Roboto';
 font-weight:700;
-padding-top: 10px;
+padding: 10px;
 `
 
 export const NavLinkBox = Styled.div`
@@ -24,12 +24,9 @@ display: flex;
 align-items:center; 
 `
 
-export const Logo = Styled.div`
+export const Logo = Styled.img`
 width: 30px;
 height: 30px;
-background-size: contain;
-background-color: #000;
-background: url(${(props)=> props.imgUrl});
 `
 
 export const Navlink = Styled.a`

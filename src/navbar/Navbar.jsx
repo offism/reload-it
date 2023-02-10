@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import {Nav, NavLinkBox,Navlink , Container} from './navbar.js'
-
+import {Nav, NavLinkBox,Navlink , Container, Logo} from './navbar.js'
+import logo from './../assets/logotip.png'
 function NavbarMenu (){
 
 const [navbar, setNavbar] = useState(false)
@@ -19,7 +19,7 @@ const changeBackground = ()=>{
             <Container>
             <NavLinkBox>
                 <Navlink className='bitcoin'  href={'/'}>
-                   <i className="uil uil-bitcoin"></i>
+                    <Logo src={logo}/>
                 </Navlink>
             </NavLinkBox>
             <NavLinkBox>

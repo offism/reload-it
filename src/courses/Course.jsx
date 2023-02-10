@@ -2,6 +2,7 @@ import React from 'react'
 import {Icon,PseudoText,PseudoWrapper,IconX,CourseDateText,CourseDateWrapper,CourseDatewrapper,Container,CourseBox,MainCourseTitleBox, MainCourseTitle, CoursesBox,EachCourseBox,CourseTitle,CourseCount,CourseHeader,EachCourseBoxBottom ,CourseDuration,DimBox, DimFone,DimTitle,DimBottom,CoursesDateWrapper,CoursesDateBox1, CoursesDateBox2, CourseDateBox, CourseDateName, CourseDateTitle} from './course.js'
 import Order from './Order.jsx'
 import FirstOrder from './../modals/FirstOrder.jsx'
+import Gif from './../assets/glitch2.gif'
 import { Link } from 'react-router-dom'
 function Course (){
     return (
@@ -44,7 +45,7 @@ function Course (){
                 </EachCourseBox>
             </CoursesBox>
             <DimBox>
-               <DimFone></DimFone>
+               <DimFone back={Gif}></DimFone>
                <DimBottom>
                <DimTitle>ПЕРВОЕ пробное занятие - БЕСПЛАТНО</DimTitle>
                <FirstOrder btnClass={`modalBtn1`} btnText={`ЗАПИСАТЬСЯ`} modalTitle1={`Заявка`}modalTitle2={`на беспалатный урок`} modalTitleText={`Оставьте заявку и мы свяяжемся с вами в ближайшее время`}/>
