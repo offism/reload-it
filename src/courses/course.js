@@ -2,7 +2,8 @@ import Styled from 'styled-components'
 
 export const Container = Styled.div`
 display: flex;
-min-width: 880px;
+margin: 0 auto;
+width: 880px;
 @media(max-width:569px){
     max-width: 520px;
 }

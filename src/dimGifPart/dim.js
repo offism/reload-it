@@ -9,6 +9,7 @@ max-width: 880px;
 }
 `
 export const DimBox = Styled.div`
+width: -webkit-fill-available;
 margin: 90px 0 30px;
 position: relative;
 z-index:1;
@@ -25,10 +26,10 @@ align-items:center;
 `
 
 export const DimFone = Styled.div`
+width: -webkit-fill-available;
 position:absolute;
 height: 30vh;
 z-index:-1;
-width:1301px;
 background-image: url('${({back})=>back}');
 `
 
@@ -38,4 +39,7 @@ width: 62%;
 margin: 0;
 font-size:50px;
 font-family: 'Play','League Spartan', 'Roboto';
+@media(max-width:569px){
+    font-size: 26px;
+}
 `

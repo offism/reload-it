@@ -218,6 +218,10 @@ img {
     left: 44%;
     -webkit-transform: rotate(73deg);
   }
+
+  .modalBtn1 {
+    font-size: 18px !important;
+  }
 }
 
 

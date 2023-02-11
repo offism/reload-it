@@ -5,7 +5,9 @@ display: flex;
 margin: 0 auto;
 max-width: 880px;
 @media(max-width:569px){
-    max-width: 520px;
+    min-width: 520px;
+    margin: 0 auto;
+    flex-direction:column;
 }
 `
 export const Icon = Styled.span`
