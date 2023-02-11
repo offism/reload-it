@@ -3,9 +3,8 @@ import Styled from 'styled-components'
 export const Container = Styled.div`
 display: flex;
 margin: 0 auto;
-max-width: 880px;
+width: 80%;
 @media(max-width:569px){
-    max-width: 520px;
 }
 `
 export const DimBox = Styled.div`
@@ -37,9 +36,9 @@ export const DimTitle = Styled.h2`
 color: #B2F042;
 width: 62%;
 margin: 0;
-font-size:50px;
+font-size:55px;
 font-family: 'Play','League Spartan', 'Roboto';
 @media(max-width:569px){
-    font-size: 26px;
+    font-size: 17px;
 }
 `

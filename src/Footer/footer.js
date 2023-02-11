@@ -3,10 +3,9 @@ import Styled from 'styled-components'
 export const Container = Styled.div`
 display: flex;
 margin: 0 auto;
-max-width: 880px;
+width: 80%;
+padding: 30px 0;
 @media(max-width:569px){
-    max-width: 520px;
-    padding: 30px 0;
 }
 `
 
@@ -32,9 +31,10 @@ display: flex;
 export const PhoneLabel = Styled.label`
 color: #9E9E9E;
 margin-bottom: 5px;
-font-size: 18px;
+font-size: 22px;
 @media(max-width:569px){
     margin-bottom: 0;
+    font-size: 14px;
 }
 `
 export const FooterHeadBody = Styled.div`
@@ -46,23 +46,33 @@ width: 100%;
 `
 export const ContactData = Styled.p`
 margin: 0;
-font-size: 18px;
+font-size: 22px;
+@media(max-width:569px){
+    font-size: 14px;
+}
 `
 export const Email = Styled.p`
 color:#B286FD;
 margin: 0;
 font-size:22px;
+@media(max-width:569px){
+    font-size:14px;
+}
 `
-export const SocialNetworks = Styled.div`
+export const SocialNetworks = Styled.div``
+export const FooterBootBodyFoot = Styled.div`
 `
 export const SocialNetwork = Styled.a`
 margin-left: 10px;
 cursor:pointer;
 color: #B2F042;
-font-size: 18px;
+font-size: 22px;
 text-decoration: none;
 &:hover{
     color: #B2F042;
+}
+@media(max-width:569px){
+    font-size:14px;
 }
 `
 
@@ -75,12 +85,14 @@ width: 100%;
 `
 
 export const FooterBootBody = Styled.div`
+
 `
 export const FooterBootTitle = Styled.h2`
 font-size: 93px;
 color: #5c5c5c;
 margin: 10px 0;
 @media(max-width:569px){
-    font-size: 55px;
+    margin-left: 10px;
+    font-size: 29px;
 }
 `

@@ -14,7 +14,7 @@ export const MainMiniBox = Styled.div`
 display: flex;
 flex-direction: column;
 align-items: start;
-width:60%;
+width:65%;
 `
 
 export const MainTitle = Styled.h1`

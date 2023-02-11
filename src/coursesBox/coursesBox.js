@@ -3,9 +3,8 @@ import Styled from 'styled-components'
 export const Container = Styled.div`
 display: flex;
 margin: 0 auto;
-max-width: 880px;
+width: 80%;
 @media(max-width:569px){
-    min-width: 520px;
     margin: 0 auto;
     flex-direction:column;
 }

@@ -29,7 +29,7 @@ img {
 }
 
 .InMiddleCourse {
-  margin: 0 20px;
+  margin: 0 auto;
 }
 
 .blackIcon {
@@ -223,8 +223,13 @@ img {
   }
 
   .modalBtn1 {
-    font-size: 18px !important;
+    font-size: 12px !important;
   }
+
+  .modalBtn2 {
+    font-size: 14px !important;
+  }
+
 }
 
 
@@ -237,8 +242,10 @@ img {
   }
 
   .icon_menu {
-    display: inline-block !important;
     background: none !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
   }
 
   .navMenu {

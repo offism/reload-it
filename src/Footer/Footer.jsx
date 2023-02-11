@@ -1,5 +1,5 @@
 import React from 'react'
-import {FooterBox,Container, Email,FooterBootTitle,FooterHead,FooterBoot,FooterBootBody, PhoneLabel,FooterHeadBody, ContactData,SocialNetworks,SocialNetwork} from './footer.js'
+import {FooterBox,FooterBootBodyFoot,Container, Email,FooterBootTitle,FooterHead,FooterBoot,FooterBootBody, PhoneLabel,FooterHeadBody, ContactData,SocialNetworks,SocialNetwork} from './footer.js'
 function Footer (){
     return (
         <FooterBox id="contact">
@@ -25,7 +25,9 @@ function Footer (){
                         <PhoneLabel htmlFor={'email'}>Email</PhoneLabel>
                         <Email id={'email'}>reload@gmail.com</Email>
                     </FooterBootBody>
+                    <FooterBootBodyFoot>
                     <FooterBootTitle>IT ACADEMY</FooterBootTitle>
+                    </FooterBootBodyFoot>
                 </FooterBoot>
               </FooterHead>
             </Container>

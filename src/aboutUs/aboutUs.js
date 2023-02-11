@@ -5,10 +5,9 @@ display: flex;
 align-items: center;
 margin: 0 auto;
 flex-direction: column;
-max-width: 880px;
+max-width: 80%;
 height: 100%;
 @media(max-width:569px){
-    max-width: 520px;
 }
 `
 export const AboutUsBox = Styled.div`
