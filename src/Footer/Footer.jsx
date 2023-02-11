@@ -4,7 +4,7 @@ function Footer (){
     return (
         <FooterBox id="contact">
             <Container>
-            <FooterHead>
+              <FooterHead>
                 <PhoneLabel htmlFor={'phone-number'}>Телефон</PhoneLabel>
                 <FooterHeadBody>
                     <ContactData id={'phone-number'}>+998 (90) 999 99 99</ContactData>
@@ -27,7 +27,7 @@ function Footer (){
                     </FooterBootBody>
                     <FooterBootTitle>IT ACADEMY</FooterBootTitle>
                 </FooterBoot>
-            </FooterHead>
+              </FooterHead>
             </Container>
         </FooterBox>
     )
