@@ -234,11 +234,11 @@ img {
   .PseudoBackground::before {
     content: '';
     position: absolute;
-    width: 140%;
+    width: 150%;
     height: 10%;
     transform: rotate(50deg);
     background: #EEF0F4;
-    top: 45%;
+    top: 55%;
     left: -35%;
     -webkit-transform: rotate(50deg);
     -moz-transform: rotate(50deg);
