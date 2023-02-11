@@ -4,8 +4,8 @@ import FirstOrder from './../modals/FirstOrder.jsx'
 function Order (){
     return(
         <CourseOrder>
+          <CourseOrderBox className='PseudoBackground'></CourseOrderBox>
           <Container>
-            <CourseOrderBox className='PseudoBackground'></CourseOrderBox>
             <CourseOrderTitle data-aos="fade-down"
                               data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="200">ТЫ ГОТОВ СТАТЬ ЛУЧШИМ?</CourseOrderTitle>
             <CourseOrderBody>

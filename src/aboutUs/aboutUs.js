@@ -7,6 +7,9 @@ margin: 0 auto;
 flex-direction: column;
 max-width: 880px;
 height: 100%;
+@media(max-width:569px){
+    max-width: 520px;
+}
 `
 export const AboutUsBox = Styled.div`
 min-height: 70vh;
@@ -34,7 +37,7 @@ padding: 100px 0;
 `
 export const AboutUsVideoBox = Styled.div`
 width: 50%;
-background: #ccc;
+background: #000;
 @media(max-width:569px){
     width: -webkit-fill-available;
 }

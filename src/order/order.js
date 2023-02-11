@@ -2,11 +2,16 @@ import Styled from 'styled-components'
 
 // ORDER SECTION *************************
 export const Container = Styled.div`
-display: flex;
-min-width: 880px;
-margin: 0 auto;
 flex-direction: column;
+display: flex;
+margin: 0 auto;
+max-width: 880px;
+@media(max-width:569px){
+    max-width: 520px;
+    padding: 30px 0;
+}
 `
+
 export const CourseOrder = Styled.div`
 display:flex;
 min-height: 50vh;
@@ -16,7 +21,7 @@ font-family: 'Play','League Spartan', 'Roboto';
 export const CourseOrderBox = Styled.div`
 position: absolute;
 left: 0;
-width: 1299px;
+width: -webkit-fill-available;
 min-height: 100vh;
 z-index: -1;
 background: #B2F042;
@@ -24,23 +29,39 @@ background: #B2F042;
 export const CourseOrderTitle = Styled.h2`
 color:#000;
 margin: 30px 0;
-font-size: 40px;
-width: 40%;
+font-size: 45px;
+width: 50%;
+@media(max-width:569px){
+    width: 100%;
+}
 `
 export const CourseOrderBody = Styled.div`
 display:flex;
 align-items: flex-start;
 justify-content: space-between;
+@media(max-width:569px){
+    flex-direction: column;
+}
 `
 export const CourseOrderText = Styled.p`
 color:#000;
 margin: 0;
-width:40%;
+font-size:22px;
+width:50%;
+color: #000;
+@media(max-width:569px){
+    margin: 0 0 20px 0;
+    width: 100%;
+    font-size: 22px;
+}
 `
 export const CourseOrderList = Styled.span`
 display:flex;
 flex-direction: column;
-
+@media(max-width:569px){
+font-size: 22px;
+margin:0 0 30px 0;
+}
 `
 export const Icon = Styled.span`
 color: #B286FD;

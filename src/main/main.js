@@ -31,7 +31,7 @@ margin-bottom: 30px;
 
 export const InputWrapper = Styled.div`
 display: flex;
-width: 53%;
+width: 70%;
 align-items: center;
 position: relative;
 `
@@ -77,10 +77,10 @@ font-family: 'Play', 'League Spartan', 'Roboto';
 color:#797979;
 font-size:19px;
 @media(max-width:767px){
-    font-size: 11px;
+    font-size: 19px;
 }
 @media(max-width:569px){
-    font-size: 9px;
+    font-size: 14px;
 }
 `
 
