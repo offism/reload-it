@@ -30,9 +30,10 @@ background: #B2F042;
 export const CourseOrderTitle = Styled.h2`
 color:#000;
 margin: 30px 0;
-font-size: 24px;
+font-size: 45px;
 width: 50%;
 @media(max-width:569px){
+    font-size: 22px;
     width: 100%;
 }
 `

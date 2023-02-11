@@ -116,8 +116,8 @@ top: 28%;
 left: 22%;
 @media(max-width:569px){
     font-size: 35px;
-    transform: rotate(-18deg);
-    top: 18%;
-    left: 36%;
+    transform: rotate(-22deg);
+    top: 20%;
+    left: 27%;
 }
 `

@@ -144,8 +144,8 @@ img {
   transform: rotate(60deg);
   background: #B2F042;
   position: absolute;
-  top: -55%;
-  left: 40%;
+  top: -56%;
+  left: 37%;
   -webkit-transform: rotate(60deg);
   -moz-transform: rotate(60deg);
   -ms-transform: rotate(60deg);
@@ -171,12 +171,12 @@ img {
 .PseudoBackground::before {
   content: '';
   position: absolute;
-  width: 85%;
-  height: 40%;
+  width: 75%;
+  height: 35%;
   transform: rotate(50deg);
   background: #EEF0F4;
-  top: 0;
-  left: -25%;
+  top: 25%;
+  left: -15%;
   -webkit-transform: rotate(50deg);
   -moz-transform: rotate(50deg);
   -ms-transform: rotate(50deg);
@@ -186,11 +186,12 @@ img {
 .PseudoBackground::after {
   content: '';
   position: absolute;
-  width: 85%;
-  height: 40%;
+  width: 80%;
+  height: 35%;
+  background: #EEF0F4;
   transform: rotate(50deg);
-  top: 0;
-  left: 25%;
+  top: 25%;
+  left: 40%;
   -webkit-transform: rotate(50deg);
   -moz-transform: rotate(50deg);
   -ms-transform: rotate(50deg);
@@ -215,11 +216,11 @@ img {
 @media(max-width:569px) {
 
   .withPseudo::after {
-    width: 13%;
+    width: 17%;
     height: 350%;
     top: -125%;
     left: 44%;
-    -webkit-transform: rotate(73deg);
+    -webkit-transform: rotate(67deg);
   }
 
   .modalBtn1 {
