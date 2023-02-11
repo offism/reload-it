@@ -137,7 +137,7 @@ img {
 }
 
 .withPseudo::after {
-  content: 'СКОРО';
+  content: '';
   color: #fff;
   width: 25%;
   height: 210%;
@@ -204,6 +204,21 @@ img {
 }
 
 
+
+
+/* MOBILE VIEWPORT PART****************************************** */
+
+
+@media(max-width:569px) {
+
+  .withPseudo::after {
+    width: 13%;
+    height: 350%;
+    top: -125%;
+    left: 44%;
+    -webkit-transform: rotate(73deg);
+  }
+}
 
 
 @media(max-width:768px) {

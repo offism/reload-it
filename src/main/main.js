@@ -79,5 +79,8 @@ font-size:19px;
 @media(max-width:767px){
     font-size: 11px;
 }
+@media(max-width:569px){
+    font-size: 9px;
+}
 `
 
