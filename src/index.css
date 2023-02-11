@@ -203,7 +203,10 @@ img {
   padding: 0 !important;
 }
 
-
+.videoBox div {
+  width: -webkit-fill-available !important;
+  height: -webkit-fill-available !important;
+}
 
 
 /* MOBILE VIEWPORT PART****************************************** */

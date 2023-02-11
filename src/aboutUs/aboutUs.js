@@ -21,24 +21,37 @@ export const AboutUsWrapper = Styled.div`
 height: 100%;
 width: 100%;
 display: flex;
+@media(max-width:569px){
+    flex-direction: column;
+}
 `
 export const AboutUsTextBox = Styled.div`
 width: 50%;
 padding: 100px 0;
+@media(max-width:569px){
+    width: -webkit-fill-available;
+}
 `
 export const AboutUsVideoBox = Styled.div`
 width: 50%;
 background: #ccc;
+@media(max-width:569px){
+    width: -webkit-fill-available;
+}
 `
-export const AboutUsMainTitle = Styled.h5``
+export const AboutUsMainTitle = Styled.h5`
+font-size: 30px;
+`
 
 export const AboutUsTitle = Styled.h4`
 margin: 10px 0 30px 0;
+font-size: 30px;
 `
 export const AboutUsText = Styled.p`
 width: 90%;
-font-size:20px;
-font-family: 'League Spartan', 'Roboto','Play';
+font-size: 30px;
+font-family: 'League Spartan','Roboto','Play';
+margin-bottom: 30px;
 `
 export const AboutUsBtn = Styled.button`
 padding: 10px;
