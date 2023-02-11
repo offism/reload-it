@@ -1,6 +1,6 @@
 import React from 'react'
 import {Icon, Container,CourseOrderBox,CourseOrder, CourseOrderTitle, CourseOrderBody ,CourseOrderText, CourseOrderList , CourseOrderListItem} from './order.js'
-import FirstOrder from '../modals/FirstOrder.jsx'
+import FirstOrder from './../modals/FirstOrder.jsx'
 function Order (){
     return(
         <CourseOrder>
