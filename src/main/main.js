@@ -23,7 +23,10 @@ color: #000;
 letter-spacing: 5px;
 font-family: 'Play','League Spartan', 'Roboto';
 font-weight:900;
-margin-bottom: 50px;
+margin-bottom: 30px;
+@media(max-width:767px){
+    font-size: 47px;
+}
 `
 
 export const InputWrapper = Styled.div`
@@ -66,6 +69,15 @@ border-bottom: 1px solid #000;
 `
 export const MainLenta = Styled.h4`
 margin: 0 11px;
+font-family: 'Play', 'League Spartan', 'Roboto';
 font-size:16px;
+`
+export const MainText = Styled.small`
+font-family: 'Play', 'League Spartan', 'Roboto';
+color:#797979;
+font-size:19px;
+@media(max-width:767px){
+    font-size: 11px;
+}
 `
 
