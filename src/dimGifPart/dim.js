@@ -41,4 +41,7 @@ font-family: 'Play','League Spartan', 'Roboto';
 @media(max-width:569px){
     font-size: 17px;
 }
+@media(max-width:398px) {
+    font-size: 13px;
+}
 `

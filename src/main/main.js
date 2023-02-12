@@ -24,8 +24,8 @@ letter-spacing: 5px;
 font-family: 'Play','League Spartan', 'Roboto';
 font-weight:900;
 margin-bottom: 30px;
-@media(max-width:767px){
-    font-size: 47px;
+@media(max-width:768px){
+    font-size:65px;
 }
 `
 
@@ -82,5 +82,8 @@ font-size:19px;
 @media(max-width:569px){
     font-size: 14px;
 }
+@media(max-width:398px) {
+    font-size: 9px;
+  }
 `
 

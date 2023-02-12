@@ -14,7 +14,7 @@ align-items: center;
 flex-direction: column;
 border-radius: 5px;
 border: 2px solid #000;
-padding: 40px 0;
+padding: 40px 0 0;
 background: #EEF0F4;
 position: relative;
 z-index: 0;

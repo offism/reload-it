@@ -11,7 +11,6 @@ body {
   -moz-transition: .3s ease all !important;
   -ms-transition: .3s ease all !important;
   -o-transition: .3s ease all !important;
-  /* overflow-x: hidden; */
 }
 
 code {
@@ -22,6 +21,10 @@ code {
 img {
   height: 30px;
   width: 30px;
+}
+
+.fade.modal.show {
+  padding: 0 !important;
 }
 
 ::placeholder {
@@ -164,40 +167,6 @@ img {
   text-decoration: none;
 }
 
-.PseudoBackground {
-  overflow: hidden;
-}
-
-.PseudoBackground::before {
-  content: '';
-  position: absolute;
-  width: 75%;
-  height: 35%;
-  transform: rotate(50deg);
-  background: #EEF0F4;
-  top: 25%;
-  left: -15%;
-  -webkit-transform: rotate(50deg);
-  -moz-transform: rotate(50deg);
-  -ms-transform: rotate(50deg);
-  -o-transform: rotate(50deg);
-}
-
-.PseudoBackground::after {
-  content: '';
-  position: absolute;
-  width: 80%;
-  height: 35%;
-  background: #EEF0F4;
-  transform: rotate(50deg);
-  top: 25%;
-  left: 40%;
-  -webkit-transform: rotate(50deg);
-  -moz-transform: rotate(50deg);
-  -ms-transform: rotate(50deg);
-  -o-transform: rotate(50deg);
-}
-
 .icon_menu,
 .navMenu {
   display: none !important;
@@ -211,7 +180,17 @@ img {
 
 
 /* MOBILE VIEWPORT PART****************************************** */
+@media(max-width:398px) {
+  .modalBtn2 {
+    font-size: 10px !important;
+    padding: 10px !important;
+  }
 
+  .modalBtn1 {
+    font-size: 10px !important;
+    padding: 10px !important;
+  }
+}
 
 @media(max-width:569px) {
 
@@ -231,35 +210,7 @@ img {
     font-size: 14px !important;
   }
 
-  .PseudoBackground::before {
-    content: '';
-    position: absolute;
-    width: 150%;
-    height: 10%;
-    transform: rotate(50deg);
-    background: #EEF0F4;
-    top: 55%;
-    left: -35%;
-    -webkit-transform: rotate(50deg);
-    -moz-transform: rotate(50deg);
-    -ms-transform: rotate(50deg);
-    -o-transform: rotate(50deg);
-  }
 
-  .PseudoBackground::after {
-    content: '';
-    position: absolute;
-    width: 160%;
-    height: 10%;
-    transform: rotate(50deg);
-    background: #EEF0F4;
-    top: 25%;
-    left: -5%;
-    -webkit-transform: rotate(50deg);
-    -moz-transform: rotate(50deg);
-    -ms-transform: rotate(50deg);
-    -o-transform: rotate(50deg);
-  }
 }
 
 
@@ -335,5 +286,13 @@ img {
     -moz-transition: .3s ease all;
     -ms-transition: .3s ease all;
     -o-transition: .3s ease all;
+  }
+
+  .withPseudo::after {
+    width: 20%;
+    height: 400%;
+    top: -140%;
+    left: 40%;
+    -webkit-transform: rotate(75deg);
   }
 }

@@ -4,6 +4,10 @@ export const Container = Styled.div`
 display: flex;
 margin: 0 auto;
 width: 80%;
+@media(max-width:768px){
+    margin: 0 auto;
+    flex-direction:column;
+}
 @media(max-width:569px){
     margin: 0 auto;
     flex-direction:column;
@@ -49,6 +53,10 @@ text-decoration: none;
 flex-direction:column;
 border: 2px solid #000;
 transition: .3s ease all;
+@media(max-width:768px){
+    width: 100%;
+    margin: 10px 0;
+   }
 @media(max-width:569px){
  width: 100%;
  margin: 10px 0;
@@ -119,5 +127,11 @@ left: 22%;
     transform: rotate(-22deg);
     top: 20%;
     left: 27%;
+}
+@media(max-width:768px){
+font-size: 50px;
+    transform: rotate(-18deg);
+    top: 20%;
+    left: 32%;
 }
 `

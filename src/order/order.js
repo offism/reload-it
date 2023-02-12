@@ -6,26 +6,22 @@ flex-direction: column;
 display: flex;
 margin: 0 auto;
 width: 80%;
-padding: 20px 0;
 @media(max-width:569px){
     padding: 30px 0;
 }
 `
 
 export const CourseOrder = Styled.div`
+padding: 40px 0;
 display:flex;
 min-height: 50vh;
 flex-direction: column;
 font-family: 'Play','League Spartan', 'Roboto';
 width: -webkit-fill-available;
-`
-export const CourseOrderBox = Styled.div`
-position: absolute;
-left: 0;
-width: -webkit-fill-available;
-min-height: 100vh;
-z-index: -1;
-background: #B2F042;
+background-image: url('${({background})=>background}');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
 `
 export const CourseOrderTitle = Styled.h2`
 color:#000;

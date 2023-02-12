@@ -1,10 +1,10 @@
 import React from 'react'
-import {Icon, Container,CourseOrderBox,CourseOrder, CourseOrderTitle, CourseOrderBody ,CourseOrderText, CourseOrderList , CourseOrderListItem} from './order.js'
+import {Icon, Container,CourseOrder, CourseOrderTitle, CourseOrderBody ,CourseOrderText, CourseOrderList , CourseOrderListItem} from './order.js'
 import FirstOrder from './../modals/FirstOrder.jsx'
+import orderBack from './../assets/orderBack.png'
 function Order (){
     return(
-        <CourseOrder>
-          <CourseOrderBox className='PseudoBackground'></CourseOrderBox>
+        <CourseOrder background={orderBack}>
           <Container>
             <CourseOrderTitle data-aos="fade-down"
                               data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="200">ТЫ ГОТОВ СТАТЬ ЛУЧШИМ?</CourseOrderTitle>

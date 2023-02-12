@@ -7,7 +7,7 @@ function Main (){
     return (
         <MainBox>
             <MainMiniBox>
-               <MainTitle data-aos="fade-down" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1000" data-aos-delay="200"><span className='reloadSpan'>RELOAD</span><br />IT ACADEMY</MainTitle>
+               <MainTitle data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200"><span className='reloadSpan'>RELOAD</span><br />IT ACADEMY</MainTitle>
                <InputWrapper>
                    <MainText>Стань IOS разработчиком с нами</MainText> 
                    {/* <MainInput id={'search-input'} placeholder={'Найти курс...'}/>

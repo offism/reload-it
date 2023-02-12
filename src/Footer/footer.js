@@ -50,6 +50,9 @@ font-size: 22px;
 @media(max-width:569px){
     font-size: 14px;
 }
+@media(max-width:398px){
+    font-size:8px;
+}
 `
 export const Email = Styled.p`
 color:#B286FD;
@@ -57,6 +60,9 @@ margin: 0;
 font-size:22px;
 @media(max-width:569px){
     font-size:14px;
+}
+@media(max-width:398px){
+    font-size:9px;
 }
 `
 export const SocialNetworks = Styled.div``
@@ -94,5 +100,8 @@ margin: 10px 0;
 @media(max-width:569px){
     margin-left: 10px;
     font-size: 29px;
+}
+@media(max-width:398px){
+    font-size:24px;
 }
 `
