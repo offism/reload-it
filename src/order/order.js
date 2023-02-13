@@ -28,12 +28,18 @@ color:#000;
 margin: 30px 0;
 font-size: 45px;
 width: 50%;
-@media(max-width:768px){
-    font-size: 34px;
+@media(max-width: 992px){
+    font-size: 38px;
     width: 100%;
 }
+@media(max-width:768px){
+    font-size: 35px;
+}
 @media(max-width:569px){
-    font-size: 22px;
+    font-size: 32px;
+}
+@media(max-width:398px){
+    font-size: 24px;
 }
 `
 export const CourseOrderBody = Styled.div`

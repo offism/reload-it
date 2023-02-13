@@ -4,11 +4,7 @@ export const Container = Styled.div`
 display: flex;
 margin: 0 auto;
 width: 80%;
-@media(max-width:768px){
-    margin: 0 auto;
-    flex-direction:column;
-}
-@media(max-width:569px){
+@media(max-width:992px){
     margin: 0 auto;
     flex-direction:column;
 }
@@ -25,22 +21,27 @@ cursor:pointer;
 export const CoursesBox = Styled.div`
 display: flex;
 width:100%;
-@media(max-width:569px){
-    flex-direction: column;
-}
 `
-export const CourseBox = Styled.div`
+
+export const EachCourseBoxMiddle = Styled.div`
+margin: 0 auto;
 display: flex;
-align-items: center;
-flex-direction: column;
+width:300px;
+min-height: 160px;
 border-radius: 5px;
+padding: 20px 15px;
+text-decoration: none;
+flex-direction:column;
 border: 2px solid #000;
-padding: 40px 0;
-background: #EEF0F4;
-position: relative;
-z-index: 0;
-@media(max-width:569px){
-    padding: 0;
+transition: .3s ease all;
+@media(max-width: 992px){
+    margin-top: 10px;
+    margin-left:auto;
+    margin-bottom: 10px;
+    margin-right: 0;
+}
+@media(max-width:768px){
+    width: 100%;
    }
 `
 export const EachCourseBox = Styled.div`
@@ -53,14 +54,14 @@ text-decoration: none;
 flex-direction:column;
 border: 2px solid #000;
 transition: .3s ease all;
+@media(max-width: 992px){
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 @media(max-width:768px){
     width: 100%;
-    margin: 10px 0;
    }
-@media(max-width:569px){
- width: 100%;
- margin: 10px 0;
-}
+
 `
 export const CourseHeader = Styled.div`
 display: flex;

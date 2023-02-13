@@ -31,10 +31,6 @@ img {
   font-family: 'League Spartan', 'Roboto';
 }
 
-.InMiddleCourse {
-  margin: 0 auto;
-}
-
 .blackIcon {
   color: #000;
 }
@@ -296,3 +292,6 @@ img {
     -webkit-transform: rotate(75deg);
   }
 }
+
+
+@media(max-width: 992px) {}

@@ -109,8 +109,11 @@ export const FooterBootTitle = Styled.h2`
 font-size: 93px;
 color: #5c5c5c;
 margin: 10px 0;
-@media(max-width: 768px){
+@media(max-width: 992px){
     margin-left: 10px;
+    font-size: 65px;
+}
+@media(max-width: 768px){
     font-size: 38px;
 }
 @media(max-width:569px){

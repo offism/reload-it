@@ -21,14 +21,22 @@ export const AboutUsWrapper = Styled.div`
 height: 100%;
 width: 100%;
 display: flex;
+@media(max-width:992px){
+   padding:100px 0;
+}
 @media(max-width:768px){
+    padding: 0;
     flex-direction: column;
 }
 `
 export const AboutUsTextBox = Styled.div`
 width: 50%;
 padding: 100px 0;
+@media(max-width:992px){
+    padding: 0;
+}
 @media(max-width:768px){
+    padding: 100px 0;
     width: -webkit-fill-available;
 }
 
@@ -58,6 +66,9 @@ width: 90%;
 font-size: 30px;
 font-family: 'League Spartan','Roboto','Play';
 margin-bottom: 30px;
+@media(max-width: 992px) {
+      font-size: 23px;
+  }
 @media(max-width:398px) {
       font-size: 20px;
   }

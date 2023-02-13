@@ -1,5 +1,5 @@
 import React from 'react'
-import {Container,Icon,PseudoText,PseudoWrapper,IconX,CoursesBox,EachCourseBox,CourseTitle,CourseCount,CourseHeader,EachCourseBoxBottom ,CourseDuration} from './coursesBox.js'
+import {Container,Icon,PseudoText,PseudoWrapper,IconX,CoursesBox,EachCourseBox,EachCourseBoxMiddle,CourseTitle,CourseCount,CourseHeader,EachCourseBoxBottom ,CourseDuration} from './coursesBox.js'
 import { Link } from 'react-router-dom'
 
 function Dim (){
@@ -19,7 +19,7 @@ function Dim (){
                         </EachCourseBoxBottom>
                 </EachCourseBox>
                 </Link>
-                <EachCourseBox className="InMiddleCourse withPseudo">
+                <EachCourseBoxMiddle className="withPseudo">
                     <PseudoWrapper>
                        <PseudoText>СКОРО</PseudoText>
                     </PseudoWrapper>
@@ -27,7 +27,7 @@ function Dim (){
                        <CourseTitle>MOBILE DEVELOPMENT</CourseTitle>
                        <Icon><i className="uil uil-google-drive-alt"></i></Icon>
                     </CourseHeader>
-                </EachCourseBox>
+                </EachCourseBoxMiddle>
                 <EachCourseBox className='withPseudo'>
                     <PseudoWrapper>
                        <PseudoText>СКОРО</PseudoText>
