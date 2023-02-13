@@ -7,8 +7,6 @@ margin: 0 auto;
 flex-direction: column;
 max-width: 80%;
 height: 100%;
-@media(max-width:569px){
-}
 `
 export const AboutUsBox = Styled.div`
 min-height: 70vh;
@@ -23,24 +21,26 @@ export const AboutUsWrapper = Styled.div`
 height: 100%;
 width: 100%;
 display: flex;
-@media(max-width:569px){
+@media(max-width:768px){
     flex-direction: column;
 }
 `
 export const AboutUsTextBox = Styled.div`
 width: 50%;
 padding: 100px 0;
-@media(max-width:569px){
+@media(max-width:768px){
     width: -webkit-fill-available;
 }
+
 `
 export const AboutUsVideoBox = Styled.div`
 width: 50%;
 background: #000;
-@media(max-width:569px){
+@media(max-width:768px){
     width: -webkit-fill-available;
     margin-bottom: 15%;
 }
+
 `
 export const AboutUsMainTitle = Styled.h5`
 font-size: 30px;

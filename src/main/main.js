@@ -27,6 +27,9 @@ margin-bottom: 30px;
 @media(max-width:768px){
     font-size:65px;
 }
+@media(max-width:569px){
+    font-size:45px;
+}
 `
 
 export const InputWrapper = Styled.div`
@@ -76,7 +79,7 @@ export const MainText = Styled.small`
 font-family: 'Play', 'League Spartan', 'Roboto';
 color:#797979;
 font-size:19px;
-@media(max-width:767px){
+@media(max-width:768px){
     font-size: 19px;
 }
 @media(max-width:569px){

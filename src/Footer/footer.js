@@ -32,8 +32,11 @@ export const PhoneLabel = Styled.label`
 color: #9E9E9E;
 margin-bottom: 5px;
 font-size: 22px;
-@media(max-width:569px){
+@media(max-width: 768px){
     margin-bottom: 0;
+    font-size: 18px;
+}
+@media(max-width:569px){
     font-size: 14px;
 }
 `
@@ -47,6 +50,9 @@ width: 100%;
 export const ContactData = Styled.p`
 margin: 0;
 font-size: 22px;
+@media(max-width: 768px){
+    font-size: 18px;
+}
 @media(max-width:569px){
     font-size: 14px;
 }
@@ -58,6 +64,9 @@ export const Email = Styled.p`
 color:#B286FD;
 margin: 0;
 font-size:22px;
+@media(max-width: 768px){
+    font-size:18px;
+}
 @media(max-width:569px){
     font-size:14px;
 }
@@ -76,6 +85,9 @@ font-size: 22px;
 text-decoration: none;
 &:hover{
     color: #B2F042;
+}
+@media(max-width:768px){
+    font-size:18px;
 }
 @media(max-width:569px){
     font-size:14px;
@@ -97,8 +109,11 @@ export const FooterBootTitle = Styled.h2`
 font-size: 93px;
 color: #5c5c5c;
 margin: 10px 0;
-@media(max-width:569px){
+@media(max-width: 768px){
     margin-left: 10px;
+    font-size: 38px;
+}
+@media(max-width:569px){
     font-size: 29px;
 }
 @media(max-width:398px){

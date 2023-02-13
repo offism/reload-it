@@ -28,16 +28,19 @@ color:#000;
 margin: 30px 0;
 font-size: 45px;
 width: 50%;
+@media(max-width:768px){
+    font-size: 34px;
+    width: 100%;
+}
 @media(max-width:569px){
     font-size: 22px;
-    width: 100%;
 }
 `
 export const CourseOrderBody = Styled.div`
 display:flex;
 align-items: flex-start;
 justify-content: space-between;
-@media(max-width:569px){
+@media(max-width:768px){
     flex-direction: column;
 }
 `
@@ -47,6 +50,11 @@ margin: 0;
 font-size:20px;
 width:50%;
 color: #000;
+@media(max-width: 768px){
+    margin: 0 0 20px 0;
+    width: 90%;
+    font-size: 24px;
+}
 @media(max-width:569px){
     margin: 0 0 20px 0;
     width: 100%;
@@ -56,6 +64,10 @@ color: #000;
 export const CourseOrderList = Styled.span`
 display:flex;
 flex-direction: column;
+@media(max-width: 768px){
+font-size: 20px;
+margin:0 0 30px 0;
+}
 @media(max-width:569px){
 font-size: 14px;
 margin:0 0 30px 0;

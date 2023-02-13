@@ -4,8 +4,6 @@ export const Container = Styled.div`
 display: flex;
 margin: 0 auto;
 width: 80%;
-@media(max-width:569px){
-}
 `
 export const DimBox = Styled.div`
 width: -webkit-fill-available;
@@ -38,6 +36,9 @@ width: 62%;
 margin: 0;
 font-size:55px;
 font-family: 'Play','League Spartan', 'Roboto';
+@media(max-width:768px){
+    font-size: 28px;
+}
 @media(max-width:569px){
     font-size: 17px;
 }
