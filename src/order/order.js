@@ -6,9 +6,6 @@ flex-direction: column;
 display: flex;
 margin: 0 auto;
 width: 80%;
-@media(max-width:569px){
-    padding: 30px 0;
-}
 `
 
 export const CourseOrder = Styled.div`
@@ -28,18 +25,20 @@ color:#000;
 margin: 30px 0;
 font-size: 45px;
 width: 50%;
-@media(max-width: 992px){
+@media(max-width: 1200px){
     font-size: 38px;
-    width: 100%;
+}
+@media(max-width: 992px){
+    width: 60%;
 }
 @media(max-width:768px){
-    font-size: 35px;
-}
-@media(max-width:569px){
     font-size: 32px;
 }
+@media(max-width:569px){
+    font-size: 26px;
+}
 @media(max-width:398px){
-    font-size: 24px;
+    font-size: 18px;
 }
 `
 export const CourseOrderBody = Styled.div`

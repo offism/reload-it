@@ -69,7 +69,7 @@ img {
 .modalBtn2 {
   display: inline-block;
   background: #000 !important;
-  padding: 15px !important;
+  padding: 15px;
   color: white !important;
   width: fit-content;
   cursor: pointer;
@@ -151,13 +151,13 @@ img {
 /* MOBILE VIEWPORT PART****************************************** */
 @media(max-width:398px) {
   .modalBtn2 {
-    font-size: 10px !important;
-    padding: 10px !important;
+    font-size: 10px;
+    padding: 8px;
   }
 
   .modalBtn1 {
     font-size: 10px !important;
-    padding: 10px !important;
+    padding: 10px;
   }
 }
 
@@ -168,7 +168,8 @@ img {
   }
 
   .modalBtn2 {
-    font-size: 14px !important;
+    font-size: 14px;
+    padding: 10px;
   }
 
 
@@ -176,6 +177,14 @@ img {
 
 
 @media(max-width:768px) {
+  .modalBtn1 {
+    font-size: 18px !important;
+  }
+
+  .modalBtn2 {
+    font-size: 18px;
+    padding: 12px;
+  }
 
   .icon_menu div span,
   .icon_menu div span::before,
@@ -251,11 +260,28 @@ img {
 }
 
 
-@media(max-width: 992px) {}
+@media(max-width: 992px) {
+  .modalBtn1 {
+    font-size: 20px !important;
+  }
+
+  .modalBtn2 {
+    font-size: 24px;
+    padding: 14px;
+  }
+}
 
 @media(max-width:1200px) {
+  .modalBtn1 {
+    font-size: 24px !important;
+  }
+
   .withPseudoMiddle {
     margin-left: auto;
     margin-right: 0;
+  }
+
+  .videoBox div {
+    height: 100% !important;
   }
 }
