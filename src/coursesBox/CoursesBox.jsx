@@ -1,5 +1,5 @@
 import React from 'react'
-import {Container,Icon,PseudoText,PseudoWrapper,IconX,CoursesBox,EachCourseBox,EachCourseBoxMiddle,CourseTitle,CourseCount,CourseHeader,EachCourseBoxBottom ,CourseDuration} from './coursesBox.js'
+import {Container,Icon,PseudoText,PseudoWrapper,IconX,CoursesBox,EachCourseBox,EachCourseBoxPseudo,CourseTitle,CourseCount,CourseHeader,EachCourseBoxBottom ,CourseDuration} from './coursesBox.js'
 import { Link } from 'react-router-dom'
 
 function Dim (){
@@ -19,7 +19,7 @@ function Dim (){
                         </EachCourseBoxBottom>
                 </EachCourseBox>
                 </Link>
-                <EachCourseBoxMiddle className="withPseudo">
+                <EachCourseBoxPseudo className="withPseudoMiddle">
                     <PseudoWrapper>
                        <PseudoText>СКОРО</PseudoText>
                     </PseudoWrapper>
@@ -27,8 +27,8 @@ function Dim (){
                        <CourseTitle>MOBILE DEVELOPMENT</CourseTitle>
                        <Icon><i className="uil uil-google-drive-alt"></i></Icon>
                     </CourseHeader>
-                </EachCourseBoxMiddle>
-                <EachCourseBox className='withPseudo'>
+                </EachCourseBoxPseudo>
+                <EachCourseBoxPseudo>
                     <PseudoWrapper>
                        <PseudoText>СКОРО</PseudoText>
                     </PseudoWrapper>
@@ -36,7 +36,7 @@ function Dim (){
                        <CourseTitle>ANDROID KOTLIN</CourseTitle>
                        <Icon><i className="uil uil-google-drive-alt"></i></Icon>
                     </CourseHeader>
-                </EachCourseBox>
+                </EachCourseBoxPseudo>
              </Container>
             </CoursesBox>
     )

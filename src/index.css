@@ -31,6 +31,10 @@ img {
   font-family: 'League Spartan', 'Roboto';
 }
 
+.withPseudoMiddle {
+  margin: 0 auto;
+}
+
 .blackIcon {
   color: #000;
 }
@@ -120,37 +124,6 @@ img {
   margin: 0 10px 0 0 !important;
 }
 
-.withPseudo {
-  position: relative;
-  overflow: hidden;
-}
-
-.withPseudo::before {
-  content: '';
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, .4);
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.withPseudo::after {
-  content: '';
-  color: #fff;
-  width: 25%;
-  height: 210%;
-  transform: rotate(60deg);
-  background: #B2F042;
-  position: absolute;
-  top: -56%;
-  left: 37%;
-  -webkit-transform: rotate(60deg);
-  -moz-transform: rotate(60deg);
-  -ms-transform: rotate(60deg);
-  -o-transform: rotate(60deg);
-}
-
 .navActive {
   background: #FFFEFE !important;
 }
@@ -189,14 +162,6 @@ img {
 }
 
 @media(max-width:569px) {
-
-  .withPseudo::after {
-    width: 17%;
-    height: 350%;
-    top: -125%;
-    left: 44%;
-    -webkit-transform: rotate(67deg);
-  }
 
   .modalBtn1 {
     font-size: 12px !important;
@@ -283,15 +248,14 @@ img {
     -ms-transition: .3s ease all;
     -o-transition: .3s ease all;
   }
-
-  .withPseudo::after {
-    width: 20%;
-    height: 400%;
-    top: -140%;
-    left: 40%;
-    -webkit-transform: rotate(75deg);
-  }
 }
 
 
 @media(max-width: 992px) {}
+
+@media(max-width:1200px) {
+  .withPseudoMiddle {
+    margin-left: auto;
+    margin-right: 0;
+  }
+}
