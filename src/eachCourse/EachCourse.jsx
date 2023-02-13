@@ -1,9 +1,9 @@
 import React, { useLayoutEffect }  from 'react'
 import { Link } from 'react-router-dom'
-import Navbar from './../navbar/Navbar.jsx'
+import Navbar from '../navbar/Navbar.jsx'
 import CoursePlan from '../coursePlan/CoursePlan.jsx'
 import {EachCourseBox,Container,Icon,ChevronLeftBtn,EachCourseHeader,EachCourseMainTitle,EachCourseMainText,EachCourseMainBtn,EachCourseBody,EachCourseBodyHead,EachCourseBodyHeadItem,EachCourseBodyBoot,EachCourseBodyBootTitle,EachCourseBodyBootTextItem, EachCourseBodyFooter,EachCourseBodyFooterHead} from './eachCourse.js'
-import {SocialNetwork,SocialNetworks,ContactData,Email,PhoneLabel} from './../Footer/footer'
+import {SocialNetwork,SocialNetworks,ContactData,Email,PhoneLabel} from '../Footer/footer'
 function Course (){
     useLayoutEffect(() => {
         window.scrollTo(0, 0)

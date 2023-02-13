@@ -5,8 +5,6 @@ display: flex;
 margin: 0 auto;
 width: 80%;
 padding: 30px 0;
-@media(max-width:569px){
-}
 `
 
 export const FooterBox = Styled.div`
