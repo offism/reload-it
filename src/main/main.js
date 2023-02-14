@@ -64,7 +64,7 @@ export const Lenta = Styled.div`
 font-family: 'Play', 'League Spartan', 'Roboto';
 display: flex;
 align-items: center;
-width: 1301px;
+width: 100%;
 margin: 70px 0;
 padding: 10px 0;
 border-top: 1px solid #000; 
@@ -73,7 +73,7 @@ border-bottom: 1px solid #000;
 export const MainLenta = Styled.h4`
 margin: 0 11px;
 font-family: 'Play', 'League Spartan', 'Roboto';
-font-size:16px;
+font-size:10px;
 `
 export const MainText = Styled.small`
 font-family: 'Play', 'League Spartan', 'Roboto';
