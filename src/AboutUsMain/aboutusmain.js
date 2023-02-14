@@ -1,9 +1,11 @@
 import Styled from 'styled-components'
 
 export const Container = Styled.div`
+flex-direction:column;
 display: flex;
 margin: 0 auto;
 width: 80%;
+min-height: 100vh;
 `
 export const AUmain = Styled.div`  
 position: relative;
@@ -12,7 +14,7 @@ overflow: hidden;
 z-index:-1;
 display: flex;
 padding: 30px;
-min-height:90vh;
+min-height:100vh;
 background: #262626;
 color:#fff;
 font-family: 'Play','League Spartan', 'Roboto';
@@ -20,6 +22,7 @@ font-family: 'Play','League Spartan', 'Roboto';
 
 export const AUmainHeader = Styled.div`
 width: 100%;
+height:85vh;
 display:flex;
 align-items:center;
 justify-content: center;
@@ -56,4 +59,19 @@ transform: rotate(-25deg);
 width: 110%;
 z-index:0;
 position: absolute;
+`
+
+export const AUmainBody = Styled.div`
+min-height: 40vh;
+padding: 20% 0;
+`
+export const AUmainBodyText1 = Styled.p`
+width: 50%;
+margin: 20px 0 10% 0;
+margin-right: auto;
+`
+export const AUmainBodyText2 = Styled.p`
+margin: 20px 0 10% 0;
+width: 50%;
+margin-left: auto;
 `
