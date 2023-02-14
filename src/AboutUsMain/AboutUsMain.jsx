@@ -2,7 +2,7 @@ import React from 'react'
 import {Container, AUmain,AUmainHeader ,AUmainHeaderBox,AUmainHeaderTitle} from './aboutusmain.js'
 import { Marque } from '../modules/Marquee.jsx'
 import Navbar from '../navbar/Navbar.jsx'
-import BackOfAU from './../assets/reload.gif'
+import BackOfAU from './../assets/reload4.gif'
 
 function AboutUsMain (){
     
