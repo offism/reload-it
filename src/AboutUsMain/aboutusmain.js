@@ -11,7 +11,7 @@ export const AUmain = Styled.div`
 position: relative;
 box-sizing: border-box;
 overflow: hidden;
-z-index:-1;
+z-index: 0;
 display: flex;
 padding: 30px;
 min-height:100vh;
@@ -63,7 +63,7 @@ position: absolute;
 
 export const AUmainBody = Styled.div`
 min-height: 40vh;
-padding: 20% 0;
+padding: 10% 0 5% 0;
 `
 export const AUmainBodyText1 = Styled.p`
 width: 50%;
@@ -74,4 +74,29 @@ export const AUmainBodyText2 = Styled.p`
 margin: 20px 0 10% 0;
 width: 50%;
 margin-left: auto;
+`
+export const AUmainSlider = Styled.div`
+padding: 10% 0;
+min-height: 100vh;
+`
+export const AUmainSliderTextWrapper = Styled.div`
+display:flex;
+flex-direction:column;
+padding: 0 20px;
+`
+
+export const AUmainSliderImg = Styled.img`
+`
+export const AUmainSliderTitle = Styled.h6`
+text-align:left;
+font-size: 22px;
+margin-bottom:5%;
+`
+export const AUmainSliderText = Styled.p`
+text-align:left;
+margin:0;
+font-size: 17px;
+font-weight: 100;
+font-family: 'League Spartan', 'Roboto','Play';
+
 `
