@@ -52,11 +52,11 @@ export const AUmainHeaderMarque1 = Styled.div`
 position: absolute;
 transform: rotate(25deg);
 z-index:0;
-width: 109%;
+width: 113%;
 `
 export const AUmainHeaderMarque2 = Styled.div`
 transform: rotate(-25deg);
-width: 110%;
+width: 113%;
 z-index:0;
 position: absolute;
 `

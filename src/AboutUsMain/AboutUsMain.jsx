@@ -6,6 +6,7 @@ import {EachCourseBodyFooter,EachCourseBodyFooterHead} from './../EachCourse/eac
 import Navbar from '../navbar/Navbar.jsx'
 import BackOfAU from './../assets/reload4.gif'
 import BoyImg from './../assets/boy1.png'
+import { Link } from 'react-router-dom'
 
 function AboutUsMain (){
     
@@ -13,6 +14,7 @@ function AboutUsMain (){
         <>
         <Navbar/>
         <AUmain>
+        <Link className='TDnone1' to={'/'}><i className="uil uil-arrow-left"></i></Link>
             <Container>
                 <AUmainHeader>
                     <AUmainHeaderMarque1>

@@ -194,6 +194,36 @@ swiper-slide img {
   text-decoration: none;
 }
 
+.TDnone1 {
+  text-decoration: none;
+  position: absolute;
+  z-index: 5;
+  font-size: 42px;
+  color: #fff;
+  transition: .3s ease all;
+  -webkit-transition: .3s ease all;
+  -moz-transition: .3s ease all;
+  -ms-transition: .3s ease all;
+  -o-transition: .3s ease all;
+  margin: 0;
+  padding: 0;
+}
+
+.TDnone1:hover {
+  color: #fff;
+  transform: none;
+  margin: 0;
+  padding: 0;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
 .icon_menu,
 .navMenu {
   display: none !important;
