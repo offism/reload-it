@@ -3,10 +3,13 @@ import Styled from 'styled-components'
 // ORDER SECTION *************************
 export const Container = Styled.div`
 display: flex;
-max-width: 840px;
+width: 80%;
 margin: 0 auto;
 flex-direction: column;
 align-items: center;
+@media(max-width:398px){
+    width: 90%;
+}
 `
 export const EachCourseBox = Styled.div`
 font-family: 'Play','League Spartan', 'Roboto';
@@ -31,16 +34,31 @@ color:white;
 {
     color:white;
 }
+@media(max-width:398px){
+    top: 20px;
+    left: 10px;
+}
 `
 export const EachCourseHeader = Styled.div`
 width:60%;
+@media(max-width:398px){
+    width:100%;
+}
 `
 export const EachCourseMainTitle = Styled.h2`
 font-size:54px;
 margin-bottom: 30px;
+@media(max-width:398px){
+    font-size:22px;
+    margin-bottom: 10px;
+}
 `
 export const EachCourseMainText = Styled.p`
 font-size: 19px;
+@media(max-width:398px){
+    font-size: 16px;
+    margin: 0;
+}
 `
 export const EachCourseMainBtn = Styled.a`
 padding: 13px;
@@ -53,6 +71,10 @@ margin: 20px 0 60px 0;
 display: inline-block;
 &:hover{
     color:#000;
+}
+@media(max-width:398px){
+    padding: 9px;
+    margin: 20px 0;
 }
 `
 export const EachCourseBody = Styled.div`
@@ -69,6 +91,12 @@ width:33.3%;
 border:2px solid #fff;
 padding: 33px 60px;
 font-size:30px;
+@media(max-width:398px){
+    padding: 10px 5px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
 `
 export const EachCourseBodyBoot = Styled.div`
 background: #EEF0F4;

@@ -39,8 +39,13 @@ swiper-container {
   height: 100%;
 }
 
+swiper-slide:active {
+  cursor: grabbing;
+}
+
 swiper-slide {
-  width: 50%;
+  cursor: grab;
+  width: 65%;
   height: 300px;
   text-align: center;
   font-size: 18px;
@@ -58,7 +63,7 @@ swiper-slide {
 
 swiper-slide img {
   display: block;
-  width: 40%;
+  width: 45%;
   height: 100%;
   object-fit: cover;
   border-top-left-radius: 19px;
@@ -249,6 +254,8 @@ swiper-slide img {
   }
 }
 
+
+
 @media(max-width:569px) {
 
   .modalBtn1 {
@@ -347,8 +354,11 @@ swiper-slide img {
   }
 }
 
-
 @media(max-width: 992px) {
+  .lastTextBox:first-child {
+    justify-content: space-between;
+  }
+
   .modalBtn1 {
     font-size: 20px !important;
   }

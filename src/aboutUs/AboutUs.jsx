@@ -1,7 +1,7 @@
 import React from 'react'
 import {AboutUsBox,Container,AboutUsWrapper,AboutUsText,AboutUsBtn,AboutUsMainTitle,AboutUsTitle,AboutUsTextBox,AboutUsVideoBox} from './aboutUs.js'
 import ReactPlayer from 'react-player/lazy'
-import videoURL from './../assets/videos/video2.mp4'
+import videoURL from './../assets/videos/reload1.mp4'
 import { Link } from 'react-router-dom'
 function AboutUs (){
 

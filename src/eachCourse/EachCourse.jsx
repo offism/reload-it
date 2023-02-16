@@ -14,7 +14,7 @@ function Course (){
        <EachCourseBox>
         <Container>
             <EachCourseHeader>
-            <Link className='TDnone' to={'/'}>
+            <Link className='TDnone2' to={'/'}>
                 <ChevronLeftBtn><i className="uil uil-arrow-left"></i></ChevronLeftBtn>
             </Link>
                 <EachCourseMainTitle><span className='modalSpan'>IOS</span> РАЗРАБОТКА</EachCourseMainTitle>

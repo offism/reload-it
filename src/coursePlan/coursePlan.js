@@ -32,6 +32,7 @@ export const CourseDateBox1 = Styled.div`
 position: relative;
 display: flex;
 width: 80%;
+min-height:150px;
 margin-right: auto;
 flex-direction: row;
 border: 2px solid #fff;
@@ -46,6 +47,7 @@ text-align:left;
 export const CourseDateBox2 = Styled.div`
 position: relative;
 display: flex;
+min-height:150px;
 width: 80%;
 margin-left: auto;
 margin-top: 110px;
@@ -88,14 +90,18 @@ position: absolute;
 top:100%;
 right: -18%;
 color:#fff;
-height: 100px;
-width: 100px;
+height: 70%;
+width: 15%;
+// @media(min-width:768px){
+//     right: -18%;
+//     width: 15%;
+// }
 `
 export const ABSimgLeft = Styled.img`
-top:80%;
+top:75%;
 left: -23%;
 position: absolute;
 color:#fff;
-height: 130px;
-width: 130px;
+height: 100%;
+width: 20%;
 `

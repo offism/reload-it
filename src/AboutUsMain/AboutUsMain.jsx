@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useLayoutEffect } from 'react'
 import {Container, AUmain,AUmainHeader,AUmainSlider,AUmainSliderImg,AUmainSliderText ,AUmainSliderTitle,AUmainSliderTextWrapper,AUmainBodyText1,AUmainBodyText2,AUmainBody,AUmainHeaderBox,AUmainHeaderTitle,AUmainHeaderMarque1,AUmainHeaderMarque2} from './aboutusmain.js'
 import { Marque } from '../modules/Marquee.jsx'
 import {SocialNetwork,SocialNetworks,ContactData,Email,PhoneLabel} from '../Footer/footer'
@@ -9,7 +9,9 @@ import BoyImg from './../assets/boy1.png'
 import { Link } from 'react-router-dom'
 
 function AboutUsMain (){
-    
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0)
+    });
     return (
         <>
         <Navbar/>
