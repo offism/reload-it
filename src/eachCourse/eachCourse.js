@@ -93,7 +93,7 @@ padding: 33px 60px;
 font-size:30px;
 @media(max-width:398px){
     padding: 10px 5px;
-    font-size: 15px;
+    font-size: 13px;
     display: flex;
     align-items: center;
 }
@@ -105,6 +105,9 @@ padding: 50px 40px 40px 40px;
 color:#000;
 text-align:left;
 border: 2px solid #B286FD;
+@media(max-width:398px){
+padding: 25px;
+}
 `
 export const Icon = Styled.span`
 color:#B286FD;
@@ -112,8 +115,14 @@ color:#B286FD;
 export const EachCourseBodyBootTitle = Styled.h4`
 font-size:24px;
 margin: 10px 0 30px 0;
+@media(max-width:398px){
+    font-size:14px;
+    }
 `
-export const EachCourseBodyBootTextItem = Styled.p``
+export const EachCourseBodyBootTextItem = Styled.p`
+@media(max-width:398px){
+    font-size:14px;
+    }`
 export const EachCourseBodyFooter = Styled.div``
 export const EachCourseBodyFooterHead = Styled.div`
 display: flex;

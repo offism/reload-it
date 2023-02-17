@@ -252,6 +252,10 @@ swiper-slide img {
     font-size: 10px !important;
     padding: 10px;
   }
+
+  .lastTextBox div:first-child {
+    flex-direction: column;
+  }
 }
 
 

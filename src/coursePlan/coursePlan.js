@@ -20,6 +20,10 @@ align-items: flex-start;
 export const MainCourseTitle = Styled.h2`
 margin: 30px 0;
 font-family: 'Play','League Spartan', 'Roboto';
+@media(max-width:398px){
+    margin: 15px 0;
+    font-size:18px;
+    }
 `
 
 export const CoursesDateWrapper = Styled.div`
@@ -43,6 +47,13 @@ text-align:left;
 *{
     color:#000 !important;
 }
+@media(max-width:398px){
+    min-height:fit-content;
+    width: 100%;
+    justify-content: space-between;
+    min-height:125px;
+    padding: 20px;
+}
 `
 export const CourseDateBox2 = Styled.div`
 position: relative;
@@ -54,9 +65,16 @@ margin-top: 110px;
 text-align:left;
 margin-bottom: 110px;
 border: 5px solid #fff;
-padding: 20px 30px;
 border-radius: 10px;
+padding: 20px 30px;
 flex-direction:row;
+@media(max-width:398px){
+    padding: 20px;
+    min-height:fit-content;
+    width: 100%;
+    justify-content: space-between;
+    min-height:125px;
+}
 `
 export const CourseDateTitle = Styled.h2`
 color:#fff;
@@ -64,13 +82,21 @@ font-size: 35px;
 font-family: 'Play','League Spartan', 'Roboto';
 margin-right: 20px;
 margin-bottom: 0px;
-`
-export const CourseDateName = Styled.p`
+@media(max-width:398px){
+    margin-right: 10px;
+    font-size:22px;
+    }
+    `
+    export const CourseDateName = Styled.p`
 color: #fff;
 font-family: 'League Spartan','Roboto','Play';
 font-size: 20px;
 width:45%;
 font-weight: 300;
+@media(max-width:398px){
+    font-size:13px;
+    width:100%;
+    }
 `
 export const CourseDateWrapper = Styled.div`
 flex-direction:row;
@@ -78,12 +104,34 @@ display:flex;
 `
 export const CourseDatewrapper = Styled.div`
 width:25%;
+@media(max-width:398px){
+    width:100%;
+}
 `
 export const CourseDateText = Styled.p`
 color:#fff;
 font-family: 'Play','League Spartan', 'Roboto';
 width:50%;
 font-size: 22px;
+@media(max-width:398px){
+    width: 100%;
+    font-size: 14px;
+}
+`
+export const DirectArrow = Styled.img`
+position: absolute;
+color:#fff !important;
+height: 100%;
+left: 50%;
+display: none;
+transform: rotate(180deg);
+@media(max-width:398px){
+    display: flex;
+    width: 30%;
+    left: 38%;
+    height: 70%;
+    top: 115%;
+  }
 `
 export const ABSimgRight = Styled.img`
 position: absolute;
@@ -92,10 +140,9 @@ right: -18%;
 color:#fff;
 height: 70%;
 width: 15%;
-// @media(min-width:768px){
-//     right: -18%;
-//     width: 15%;
-// }
+@media(max-width:398px){
+  display: none;
+}
 `
 export const ABSimgLeft = Styled.img`
 top:75%;
@@ -104,4 +151,7 @@ position: absolute;
 color:#fff;
 height: 100%;
 width: 20%;
+@media(max-width:398px){
+  display: none;
+}
 `
