@@ -63,7 +63,7 @@ margin-bottom: 30px;
 export const EachCourseMainText = Styled.p`
 font-size: 19px;
 @media(max-width:569px){
-    font-size: 18px;
+    font-size: 16px;
     width: 100%;
 }
 @media(max-width:398px){

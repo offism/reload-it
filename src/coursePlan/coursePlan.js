@@ -137,7 +137,7 @@ width:50%;
 font-size: 22px;
 @media(max-width:569px){
     width: 100%;
-    font-size: 16px;
+    font-size: 18px;
 }
 @media(max-width:398px){
     font-size: 14px;
