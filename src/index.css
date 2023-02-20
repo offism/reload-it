@@ -253,8 +253,8 @@ swiper-slide img {
     padding: 10px;
   }
 
-  .lastTextBox div:first-child {
-    flex-direction: column;
+  .lastTextBox {
+    margin-bottom: 0 !important;
   }
 }
 
@@ -271,7 +271,17 @@ swiper-slide img {
     padding: 10px;
   }
 
+  .lastTextBox {
+    margin-bottom: 0 !important;
+  }
 
+  .lastTextBox div:first-child {
+    flex-direction: column;
+  }
+
+  .lastTextBox h2 {
+    margin: 0 !important;
+  }
 }
 
 

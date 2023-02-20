@@ -7,7 +7,7 @@ width: 80%;
 margin: 0 auto;
 flex-direction: column;
 align-items: center;
-@media(max-width:398px){
+@media(max-width:569px){
     width: 90%;
 }
 `
@@ -44,10 +44,17 @@ width:60%;
 @media(max-width:398px){
     width:100%;
 }
+@media(max-width:569px){
+    width:85%;
+}
 `
 export const EachCourseMainTitle = Styled.h2`
 font-size:54px;
 margin-bottom: 30px;
+@media(max-width:569px){
+    font-size:34px;
+    margin-bottom: 20px;
+}
 @media(max-width:398px){
     font-size:22px;
     margin-bottom: 10px;
@@ -55,6 +62,10 @@ margin-bottom: 30px;
 `
 export const EachCourseMainText = Styled.p`
 font-size: 19px;
+@media(max-width:569px){
+    font-size: 18px;
+    width: 100%;
+}
 @media(max-width:398px){
     font-size: 16px;
     margin: 0;
@@ -91,11 +102,15 @@ width:33.3%;
 border:2px solid #fff;
 padding: 33px 60px;
 font-size:30px;
+@media(max-width:569px){
+    align-items: center;
+    display: flex;
+    padding: 10px 10px;
+    font-size: 18px;
+}
 @media(max-width:398px){
     padding: 10px 5px;
     font-size: 13px;
-    display: flex;
-    align-items: center;
 }
 `
 export const EachCourseBodyBoot = Styled.div`
@@ -105,6 +120,9 @@ padding: 50px 40px 40px 40px;
 color:#000;
 text-align:left;
 border: 2px solid #B286FD;
+@media(max-width:569px){
+    padding: 30px;
+}
 @media(max-width:398px){
 padding: 25px;
 }
@@ -115,14 +133,21 @@ color:#B286FD;
 export const EachCourseBodyBootTitle = Styled.h4`
 font-size:24px;
 margin: 10px 0 30px 0;
+@media(max-width:569px){
+    font-size:19px;
+}
 @media(max-width:398px){
     font-size:14px;
     }
 `
 export const EachCourseBodyBootTextItem = Styled.p`
+@media(max-width:569px){
+    font-size:19px;
+    }
 @media(max-width:398px){
     font-size:14px;
-    }`
+    }
+    `
 export const EachCourseBodyFooter = Styled.div``
 export const EachCourseBodyFooterHead = Styled.div`
 display: flex;
