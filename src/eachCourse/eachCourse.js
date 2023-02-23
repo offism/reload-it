@@ -41,19 +41,25 @@ color:white;
 `
 export const EachCourseHeader = Styled.div`
 width:60%;
-@media(max-width:398px){
+@media(max-width:768px){
     width:100%;
 }
 @media(max-width:569px){
     width:85%;
 }
+@media(max-width:398px){
+    width:100%;
+}
 `
 export const EachCourseMainTitle = Styled.h2`
 font-size:54px;
 margin-bottom: 30px;
+@media(max-width:768px){
+    font-size:44px;
+    margin-bottom: 20px;
+}
 @media(max-width:569px){
     font-size:34px;
-    margin-bottom: 20px;
 }
 @media(max-width:398px){
     font-size:22px;
@@ -102,9 +108,13 @@ width:33.3%;
 border:2px solid #fff;
 padding: 33px 60px;
 font-size:30px;
-@media(max-width:569px){
+@media(max-width:768px){
     align-items: center;
     display: flex;
+    padding: 20px;
+    font-size: 22px;
+}
+@media(max-width:569px){
     padding: 10px 10px;
     font-size: 18px;
 }

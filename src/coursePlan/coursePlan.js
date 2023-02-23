@@ -20,6 +20,10 @@ align-items: flex-start;
 export const MainCourseTitle = Styled.h2`
 margin: 30px 0;
 font-family: 'Play','League Spartan', 'Roboto';
+@media(max-width:768px){
+    margin: 25px 0;
+    font-size:30px;
+    }
 @media(max-width:576px){
     margin: 22px 0;
     font-size:21px;
@@ -51,8 +55,13 @@ text-align:left;
 *{
     color:#000 !important;
 }
+@media(max-width:768px){
+    width: 100%;
+    justify-content: space-between;
+    min-height:150px;
+    padding: 30px;
+}
 @media(max-width:576px){
-    min-height:fit-content;
     width: 100%;
     justify-content: space-between;
     min-height:130px;
@@ -79,6 +88,12 @@ border: 5px solid #fff;
 border-radius: 10px;
 padding: 20px 30px;
 flex-direction:row;
+@media(max-width:768px){
+    padding: 30px;
+    width: 100%;
+    justify-content: space-between;
+    min-height:150px;
+}
 @media(max-width:576px){
     padding: 20px;
     min-height:fit-content;
@@ -126,7 +141,7 @@ display:flex;
 `
 export const CourseDatewrapper = Styled.div`
 width:25%;
-@media(max-width:569px){
+@media(max-width:768px){
     width:100%;
 }
 `
@@ -135,6 +150,10 @@ color:#fff;
 font-family: 'Play','League Spartan', 'Roboto';
 width:50%;
 font-size: 22px;
+@media(max-width:768px){
+    width: 100%;
+    font-size: 22px;
+}
 @media(max-width:569px){
     width: 100%;
     font-size: 18px;
@@ -150,12 +169,19 @@ height: 100%;
 left: 50%;
 display: none;
 transform: rotate(180deg);
+@media(max-width:768px){
+    display: flex;
+    width: 30%;
+    left: 38%;
+    height: 70%;
+    top: 110%;
+  }
 @media(max-width:576px){
     display: flex;
     width: 30%;
     left: 38%;
     height: 70%;
-    top: 107%;
+    top: 110%;
   }
 @media(max-width:398px){
     display: flex;
@@ -172,7 +198,7 @@ right: -18%;
 color:#fff;
 height: 70%;
 width: 15%;
-@media(max-width:576px){
+@media(max-width:768px){
   display: none;
 }
 `
@@ -183,7 +209,7 @@ position: absolute;
 color:#fff;
 height: 100%;
 width: 20%;
-@media(max-width:576px){
+@media(max-width:768px){
     display: none;
   }
 `
