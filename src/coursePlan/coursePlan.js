@@ -138,6 +138,10 @@ font-weight: 300;
 export const CourseDateWrapper = Styled.div`
 flex-direction:row;
 display:flex;
+@media(max-width:992px){
+    justify-content: space-between;
+
+}
 `
 export const CourseDatewrapper = Styled.div`
 width:25%;
@@ -173,20 +177,14 @@ transform: rotate(180deg);
     display: flex;
     width: 30%;
     left: 38%;
-    height: 70%;
-    top: 110%;
+    height: 56%;
+    top: 108%;
   }
 @media(max-width:576px){
-    display: flex;
-    width: 30%;
-    left: 38%;
     height: 70%;
     top: 110%;
   }
 @media(max-width:398px){
-    display: flex;
-    width: 30%;
-    left: 38%;
     height: 70%;
     top: 110%;
   }

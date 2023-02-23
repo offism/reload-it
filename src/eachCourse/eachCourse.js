@@ -41,7 +41,7 @@ color:white;
 `
 export const EachCourseHeader = Styled.div`
 width:60%;
-@media(max-width:768px){
+@media(max-width:992px){
     width:100%;
 }
 @media(max-width:569px){
@@ -108,9 +108,13 @@ width:33.3%;
 border:2px solid #fff;
 padding: 33px 60px;
 font-size:30px;
-@media(max-width:768px){
+@media(max-width:992px){
     align-items: center;
     display: flex;
+    padding: 30px;
+    font-size: 30px;
+}
+@media(max-width:768px){
     padding: 20px;
     font-size: 22px;
 }

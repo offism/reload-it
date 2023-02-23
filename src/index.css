@@ -366,11 +366,19 @@ swiper-slide img {
     -ms-transition: .3s ease all;
     -o-transition: .3s ease all;
   }
+
+  .lastTextBox {
+    margin-bottom: 0 !important;
+  }
 }
 
 @media(max-width: 992px) {
   .lastTextBox:first-child {
-    justify-content: space-between;
+    display: flex;
+  }
+
+  .lastTextBox {
+    margin-bottom: 0 !important;
   }
 
   .modalBtn1 {
