@@ -6,7 +6,7 @@ display: flex;
 margin: 0 auto;
 width: 80%;
 min-height: 100vh;
-@media(max-width:569px){
+@media(max-width:768px){
     width: 100%;
 }
 `
@@ -44,13 +44,21 @@ background-image: url('${({background})=>background}');
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
+@media(max-width:992px){
+    width: 90%;
+    height: 75%;
+}
+@media(max-width:768px){
+    width: 80%;
+    height: 75%;
+}
 @media(max-width:569px){
     width: 90%;
     height: 75%;
 }
 @media(max-width:398px){
-    width: 84%;
-    height: 70%;
+    width: 95%;
+    height: 75%;
 }
     ` 
 export const AUmainHeaderTitle = Styled.h3`
@@ -58,6 +66,9 @@ font-size: 65px;
 text-align: center;
 color:#000;
 text-shadow: 0 0 #fff;
+@media(max-width:768px){
+    font-size: 55px;
+}
 @media(max-width:569px){
     font-size: 40px;
     }
@@ -86,13 +97,16 @@ export const AUmainBodyText1 = Styled.p`
 width: 50%;
 margin: 20px 0 10% 0;
 margin-right: auto;
-@media(max-width:569px){
+@media(max-width:768px){
     width: 100%;
+}
+@media(max-width:398px){
+font-size:12px;
 }
 `
 export const AUmainBodyHR = Styled.hr`
 display: none;
-@media(max-width:569px){
+@media(max-width:768px){
     display: flex;
 }
 `
@@ -100,28 +114,50 @@ export const AUmainBodyText2 = Styled.p`
 margin: 20px 0 10% 0;
 width: 50%;
 margin-left: auto;
-@media(max-width:569px){
+@media(max-width:768px){
+    margin: 20px 0 5% 0;
     width: 100%;
 }
+@media(max-width:398px){
+    font-size:12px;
+    }
 `
 export const AUmainSlider = Styled.div`
 padding: 10% 0;
 min-height: 100vh;
-@media(max-width:569px){
+@media(max-width:1200px){
     padding: 0;
-    min-height: 80vh;
+    min-height: 60vh;
+}
+@media(max-width:768px){
+    min-height: 110vh;
+}
+@media(max-width:569px){
+    min-height: 85vh;
+}
+@media(max-width:398px){
+    min-height: 90vh;
 }
 `
 export const AUmainSliderTextWrapper = Styled.div`
 display:flex;
 flex-direction:column;
 padding: 0 20px;
-@media(max-width:569px){
+@media(max-width:768px){
     padding: 20px;
 }
 `
 
 export const AUmainSliderImg = Styled.img`
+@media(max-width:768px){
+    object-position: top;
+    height: 70%;
+    width:100%;
+    border-bottom-left-radius: 0px;
+    object-fit: cover;
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px;
+}
 @media(max-width:569px){
     height: 60%;
     width:100%;
@@ -131,7 +167,7 @@ export const AUmainSliderImg = Styled.img`
     border-top-right-radius: 19px;
 }
 @media(max-width:398px){
-    height: 50%;
+    height: 60%;
 }
     `
 export const AUmainSliderTitle = Styled.h6`
@@ -145,5 +181,8 @@ margin:0;
 font-size: 17px;
 font-weight: 100;
 font-family: 'League Spartan', 'Roboto','Play';
+@media(max-width:398px){
+    font-size: 14px;
+}
 
 `
